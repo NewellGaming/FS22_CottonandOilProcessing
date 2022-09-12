@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="63">
+<author>Newell_Gaming</author>
+<version>1.0.0.1</version>
+
+    <title>
+        <en>Grupo Cotton and Oil Processing</en>
+
+    </title>
+    <description>
+        <en><![CDATA[Grupo Cotton Processing
+Price: 110 000 $
+]]>
+        </en>
+    </description>
+
+<iconFilename>img/store_cottonGin.dds</iconFilename>
+
+<multiplayer supported="true"/>
+
+	<brands>
+		<brand name="Newell_Gaming" title="Newell_Gaming" image="newellGaming.dds"/>
+	</brands>
+	
+	<extraSourceFiles>
+        <sourceFile filename="scripts/categorizer.lua" />
+    </extraSourceFiles>
+
+<storeItems>
+	<storeItem xmlFilename="xml/cottonProcessing.xml"/>
+	<storeItem xmlFilename="xml/lintPallet.xml"/>
+	<storeItem xmlFilename="xml/clothesPallet.xml"/>
+	<storeItem xmlFilename="xml/clothesPallet1.xml"/>	
+	<storeItem xmlFilename="xml/cottonseedOil.xml"/>
+	<storeItem xmlFilename="xml/levisShop.xml"/>	
+	<storeItem xmlFilename="xml/vegetableoilPallet.xml"/>	
+	<storeItem xmlFilename="xml/levisStore.xml"/>
+	<storeItem xmlFilename="xml/dickiesStore.xml"/>	
+</storeItems>
+	<fillTypes filename="xml/addFilltypes.xml" />
+</modDesc>

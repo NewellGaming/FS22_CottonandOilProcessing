@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="clothesBoxPallet" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="9.0.2"/>
+    </Asset>
+    <Files>
+        <File fileId="5" filename="$data/objects/pallets/clothesBoxPallet/clothesBox_diffuse.png"/>
+        <File fileId="6" filename="$data/objects/pallets/clothesBoxPallet/clothesBox_normal.png"/>
+        <File fileId="7" filename="$data/objects/pallets/clothesBoxPallet/clothesBox_specular.png"/>
+        <File fileId="2" filename="$data/objects/pallets/euroPallet01_diffuse.png"/>
+        <File fileId="3" filename="$data/objects/pallets/euroPallet01_normal.png"/>
+        <File fileId="4" filename="$data/objects/pallets/euroPallet01_specular.png"/>
+    </Files>
+    <Materials>
+        <Material name="clothesBox_mat" materialId="5">
+            <Texture fileId="5"/>
+            <Normalmap fileId="6"/>
+            <Glossmap fileId="7"/>
+        </Material>
+        <Material name="euroPallet01_mat" materialId="6">
+            <Texture fileId="2"/>
+            <Normalmap fileId="3"/>
+            <Glossmap fileId="4"/>
+        </Material>
+        <Material name="lambert1" materialId="4" diffuseColor="0.498039 0.498039 0.498039 1"/>
+    </Materials>
+    <Shapes externalShapesFile="clothesPallet1.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <Shape shapeId="1" name="clothesBoxPallet_component1" dynamic="true" compound="true" collisionMask="2109442" density="0.0001" clipDistance="150" nodeId="14" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <Shape shapeId="2" name="pallet_vis" nodeId="15" materialIds="6" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="3" name="dynamicMountTrigger" translation="0 0.0904753 0" visibility="false" kinematic="true" trigger="true" collisionMask="134217728" nodeId="16" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                <TransformGroup name="dischargeNode" translation="0 0.8 0" nodeId="17"/>
+                <TransformGroup name="content" nodeId="18">
+                    <Shape shapeId="4" name="clothesBox01" translation="-0.2992 0.144671 0.203179" clipDistance="100" nodeId="19" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="4" name="clothesBox02" translation="-0.2992 0.144671 -0.199053" clipDistance="100" nodeId="20" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="4" name="clothesBox03" translation="0.304199 0.144671 -0.199053" clipDistance="100" nodeId="21" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="4" name="clothesBox04" translation="0.304199 0.144671 0.203179" clipDistance="100" nodeId="22" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="4" name="clothesBox05" translation="-0.2992 0.544671 0.203179" clipDistance="100" nodeId="23" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="4" name="clothesBox06" translation="-0.2992 0.544671 -0.199053" clipDistance="100" nodeId="24" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="4" name="clothesBox07" translation="0.304199 0.544671 -0.199053" clipDistance="100" nodeId="25" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="4" name="clothesBox08" translation="0.304199 0.544671 0.203179" clipDistance="100" nodeId="26" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+                <TransformGroup name="collisions" clipDistance="10" nodeId="27">
+                    <Shape shapeId="5" name="floorCollision01" translation="0.3 0 0" compoundChild="true" collisionMask="16781578" staticFriction="1" dynamicFriction="1" density="0.0001" nodeId="28" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                    <Shape shapeId="5" name="floorCollision02" translation="-0.3 0 0" compoundChild="true" collisionMask="16781578" staticFriction="1" dynamicFriction="1" density="0.0001" nodeId="29" materialIds="4" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                </TransformGroup>
+            </Shape>
+        </Shape>
+    </Scene>
+</i3D>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="productionPoint" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../shared/xml/schema/placeable.xsd">
+    <storeData>
+        <name><en>LEVI STRAUSS & CO.</en></name>
+        <functions>
+            <function>Produces cotton seed oil, corn oil, soybean oil, and vegetable oil.</function>
+        </functions>
+        <image>img/store_levisShop.dds</image>
+        <price>110000</price>
+        <showInStore>true</showInStore>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <species>placeable</species>
+        <brand>Newell_Gaming</brand>
+        <category>Newell_Gaming</category>
+        <brush>
+            <type>placeable</type>
+            <category>production</category>
+            <tab>factories</tab>
+        </brush>
+        <vertexBufferMemoryUsage>1013760</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>161792</indexBufferMemoryUsage>
+        <textureMemoryUsage>9764864</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+        <audioMemoryUsage>0</audioMemoryUsage>
+    </storeData>
+
+    <base>
+        <filename>i3ds/levisShop.i3d</filename>
+        <canBeRenamed>true</canBeRenamed>
+    </base>
+
+    <placement useRandomYRotation="false" useManualYRotation="true" >
+        <testAreas>
+            <testArea startNode="testArea1Start" endNode="testArea1End" />
+            <testArea startNode="testArea2Start" endNode="testArea2End" />
+        </testAreas>
+
+        <sounds>
+            <place template="smallImp" />
+        </sounds>
+    </placement>
+
+    <clearAreas>
+        <clearArea startNode="clearArea1Start" widthNode="clearArea1Width" heightNode="clearArea1Height"/>
+    </clearAreas>
+
+    <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30" >
+        <levelAreas>
+            <levelArea startNode="levelArea1Start" widthNode="levelArea1Width" heightNode="levelArea1Height" groundType="asphalt"/>
+        </levelAreas>
+    </leveling>
+
+    <indoorAreas>
+        <indoorArea startNode="indoorArea1Start" widthNode="indoorArea1Width" heightNode="indoorArea1Height" />
+    </indoorAreas>
+
+    <tipOcclusionUpdateAreas>
+        <tipOcclusionUpdateArea startNode="tipOcclusionUpdateArea1Start" endNode="tipOcclusionUpdateArea1End" />
+    </tipOcclusionUpdateAreas>
+
+    <ai>
+        <updateAreas>
+            <updateArea startNode="tipOcclusionUpdateArea1Start" endNode="tipOcclusionUpdateArea1End" />
+        </updateAreas>
+        <splines>
+            <spline node="aiSpline" />
+        </splines>
+    </ai>
+
+    <infoTrigger triggerNode="infoTrigger" />
+
+    <triggerMarkers>
+        <triggerMarker node="warningStripes" />
+        <triggerMarker node="playerTriggerMarker" filename="$data/shared/assets/marker/markerIcons.xml" id="WRENCH" adjustToGround="true" />
+        <triggerMarker node="unloadTriggerMarker" filename="$data/shared/assets/marker/markerIcons.xml" id="UNLOAD" adjustToGround="true" />
+    </triggerMarkers>
+
+    <hotspots>
+        <hotspot type="PRODUCTION_POINT" linkNode="unloadTriggerMarker" teleportNode="teleportNode" />
+    </hotspots>
+
+    <lights>
+       
+    </lights>
+
+    <productionPoint>
+        <productions>
+            <production id="Clothes" name="Clothes" cyclesPerHour="45" costsPerActiveHour="10">
+                <inputs>
+                    <input fillType="FABRIC" amount="4" />
+                </inputs>
+                <outputs>
+                    <output fillType="CLOTHES" amount="2" />
+                    <output fillType="LEVIS" amount="1" />	
+                    <output fillType="DICKIES" amount="1" />						
+                </outputs>
+            </production>
+        </productions>
+
+        <storage isExtension="false" fillLevelSyncThreshold="50">
+            <capacity fillType="FABRIC" capacity="500000" />
+            <capacity fillType="CLOTHES" capacity="500000" />			
+            <capacity fillType="LEVIS" capacity="500000" />	
+            <capacity fillType="DICKIES" capacity="500000" />				
+        </storage>
+
+        <sellingStation node="sellingStation" supportsExtension="false">
+            <unloadTrigger exactFillRootNode="unloadTrigger"  aiNode="unloadTriggerAINode" fillTypes="FABRIC COTTON1">
+                <baleTrigger triggerNode="baleTrigger" deleteLitersPerSecond="4000" />
+            </unloadTrigger>
+        </sellingStation>
+			
+
+        <palletSpawner node="palletSpawner">
+            <spawnPlaces>
+                <spawnPlace startNode="spawnSpace1start" />
+                <spawnPlace startNode="spawnSpace2start" />				
+            </spawnPlaces>
+        </palletSpawner>
+
+        <playerTrigger node="playerTrigger" />
+
+        <sounds>
+            <idle template="oilPlantIdle" linkNode="0>" />
+            <active template="oilPlantWork" linkNode="0>" />
+        </sounds>
+    </productionPoint>
+
+    <i3dMappings>
+        <i3dMapping id="indoorAreaStart" node="0>1|0" />          
+        <i3dMapping id="levelArea1Start" node="0>2|0" />
+        <i3dMapping id="levelArea1Width" node="0>2|0|0" />
+        <i3dMapping id="levelArea1Height" node="0>2|0|1" />
+        <i3dMapping id="clearArea1Start" node="0>3|0" />
+        <i3dMapping id="clearArea1Width" node="0>3|0|0" />
+        <i3dMapping id="clearArea1Height" node="0>3|0|1" />
+        <i3dMapping id="indoorArea1Start" node="0>4|0" />
+        <i3dMapping id="indoorArea1Width" node="0>4|0|0" />
+        <i3dMapping id="indoorArea1Height" node="0>4|0|1" />
+        <i3dMapping id="testArea1Start" node="0>5|0" />
+        <i3dMapping id="testArea1End" node="0>5|0|0" />
+        <i3dMapping id="testArea2Start" node="0>5|1" />
+        <i3dMapping id="testArea2End" node="0>5|1|0" />
+        <i3dMapping id="tipOcclusionUpdateArea1Start" node="0>6|0" />
+        <i3dMapping id="tipOcclusionUpdateArea1End" node="0>6|0|0" />
+        <i3dMapping id="infoTrigger" node="0>7" />       
+        <i3dMapping id="sellingStation" node="0>8" />
+        <i3dMapping id="grainGateLinkNode" node="0>8|0" />
+        <i3dMapping id="unloadTrigger" node="0>8|0|0" />
+        <i3dMapping id="unloadTriggerMarker" node="0>8|0|0|0" />
+        <i3dMapping id="unloadTriggerAINode" node="0>8|1" />
+        <i3dMapping id="aiSpline" node="0>8|2" />
+        <i3dMapping id="playerTrigger" node="0>9|0" />
+        <i3dMapping id="playerTriggerMarker" node="0>9|0|0" />
+        <i3dMapping id="teleportNode" node="0>9|1" />
+        <i3dMapping id="palletSpawner" node="0>10" />
+        <i3dMapping id="spawnSpace1start" node="0>10|0" />
+		<i3dMapping id="spawnSpace2start" node="0>10|1" />
+        <i3dMapping id="warningStripes" node="0>10|2" />		
+        <i3dMapping id="baleTrigger" node="0>8|3" />			
+    </i3dMappings>
+</placeable>

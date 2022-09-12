@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../shared/xml/schema/fillTypes.xsd">
+
+	<fillTypes>
+        <fillType name="COTTON1" title="Lint" showOnPriceTable="true">
+            <physics massPerLiter=".1" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter=".01">
+                <factors>
+                    <factor period="1"  value="0.80" />
+                    <factor period="2"  value="0.92" />
+                    <factor period="3"  value="1.01" />
+                    <factor period="4"  value="1.04" />
+                    <factor period="5"  value="1.00" />
+                    <factor period="6"  value="1.01" />
+                    <factor period="7"  value="1.01" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.95" />
+                    <factor period="10" value="0.91" />
+                    <factor period="11" value="0.90" />
+                    <factor period="12" value="0.90" />
+                </factors>
+            </economy>
+            <effects prioritizedEffectType="ParticleEffect"/>			
+            <image      hud     ="img/hud_lint.dds" />
+            <pallet     filename="xml/lintPallet.xml" />
+            <textures   diffuse ="$data/fillPlanes/cotton_diffuse.png"
+                        normal  ="$data/fillPlanes/cotton_normal.png"
+                        specular="$data/fillPlanes/cotton_specular.png"
+                        distance="$data/fillPlanes/distance/fertilizerDistance_diffuse.png" />			
+        </fillType>	
+        <fillType name="SEEDS1" title="Cotton Seeds" showOnPriceTable="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.35" maxPhysicalSurfaceAngle="15" />
+            <economy pricePerLiter="0.3" />
+            <image      hud     ="$dataS/menu/hud/fillTypes/hud_fill_seeds.png" />
+            <pallet     filename="$data/objects/bigBagPallet/seeds/bigBagPallet_seeds.xml" />
+            <textures   diffuse ="$data/fillPlanes/genericSeed_diffuse.png"
+                        normal  ="$data/fillPlanes/genericSeed_normal.png"
+                        specular="$data/fillPlanes/genericSeed_specular.png"
+                        distance="$data/fillPlanes/distance/genericSeedDistance_diffuse.png" />
+        </fillType>		
+        <fillType name="SEEDS1_BP1" title="Cotton Seed Hulls" showOnPriceTable="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.35" maxPhysicalSurfaceAngle="15" />
+            <economy pricePerLiter="0.04" />
+            <image      hud     ="$dataS/menu/hud/fillTypes/hud_fill_seeds.png" />
+            <pallet     filename="$data/objects/bigBagPallet/seeds/bigBagPallet_seeds.xml" />
+            <textures   diffuse ="$data/fillPlanes/genericSeed_diffuse.png"
+                        normal  ="$data/fillPlanes/genericSeed_normal.png"
+                        specular="$data/fillPlanes/genericSeed_specular.png"
+                        distance="$data/fillPlanes/distance/genericSeedDistance_diffuse.png" />
+        </fillType>		
+        <fillType name="SEEDS1_BP2" title="Cotton Seed Meal (CSM)" showOnPriceTable="true" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="0.35" maxPhysicalSurfaceAngle="15" />
+            <economy pricePerLiter="0.1" />
+            <image      hud     ="$dataS/menu/hud/fillTypes/hud_fill_mineralFeed.png" />
+            <pallet     filename="$data/objects/bigBagPallet/seeds/bigBagPallet_seeds.xml" />
+            <textures   diffuse ="$data/fillPlanes/mineralFeed_diffuse.png"
+                        normal  ="$data/fillPlanes/mineralFeed_normal.png"
+                        specular="$data/fillPlanes/mineralFeed_specular.png" />
+        </fillType>		
+        <fillType name="SEEDS1_BP3" title="Cotton Stalk Residue" showOnPriceTable="true">
+            <physics massPerLiter="0.9" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter=".03" />
+            <image      hud     ="img/hud_cottonStalk.dds" />
+            <pallet     filename="$data/objects/bigBagPallet/lime/bigBagPallet_lime.xml" />
+            <textures   diffuse ="$data/fillPlanes/lime_diffuse.png"
+                        normal  ="$data/fillPlanes/lime_normal.png"
+                        specular="$data/fillPlanes/lime_specular.png"
+                        distance="$data/fillPlanes/distance/limeDistance_diffuse.png" />
+        </fillType>		
+        <fillType name="COTTONSEED_OIL" title="Cottonseed Oil" showOnPriceTable="true">
+            <physics massPerLiter="0.9" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="1.05">
+                <factors>
+                    <factor period="1"  value="1.20" />
+                    <factor period="2"  value="1.17" />
+                    <factor period="3"  value="1.05" />
+                    <factor period="4"  value="0.87" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="1.10" />
+                    <factor period="8"  value="1.11" />
+                    <factor period="9"  value="1.06" />
+                    <factor period="10" value="0.65" />
+                    <factor period="11" value="0.74" />
+                    <factor period="12" value="1.12" />
+                </factors>
+            </economy>
+            <image      hud     ="img/hud_cottonseedOil.dds" />
+            <pallet     filename="xml/vegetableoilPallet.xml" />
+        </fillType>
+        <fillType name="CORN_OIL" title="Corn Oil" showOnPriceTable="true">
+            <physics massPerLiter="0.9" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="1.05">
+                <factors>
+                    <factor period="1"  value="1.07" />
+                    <factor period="2"  value="0.99" />
+                    <factor period="3"  value="0.94" />
+                    <factor period="4"  value="0.85" />
+                    <factor period="5"  value="0.81" />
+                    <factor period="6"  value="0.86" />
+                    <factor period="7"  value="0.99" />
+                    <factor period="8"  value="1.08" />
+                    <factor period="9"  value="1.13" />
+                    <factor period="10" value="1.21" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.00" />
+                </factors>
+            </economy>
+            <image      hud     ="img/hud_cornOil.dds" />
+            <pallet     filename="xml/vegetableoilPallet.xml" />
+        </fillType>
+        <fillType name="VEGETABLE_OIL" title="Vegetable Oil" showOnPriceTable="true">
+            <physics massPerLiter="0.9" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="1.8">
+                <factors>
+                    <factor period="1"  value="0.99" />
+                    <factor period="2"  value="1.05" />
+                    <factor period="3"  value="1.08" />
+                    <factor period="4"  value="1.20" />
+                    <factor period="5"  value="1.10" />
+                    <factor period="6"  value="1.03" />
+                    <factor period="7"  value="0.93" />
+                    <factor period="8"  value="0.87" />
+                    <factor period="9"  value="0.75" />
+                    <factor period="10" value="0.84" />
+                    <factor period="11" value="0.88" />
+                    <factor period="12" value="0.95" />
+                </factors>
+            </economy>
+            <image      hud     ="img/hud_vegetableOil.dds" />
+            <pallet     filename="xml/vegetableoilPallet.xml" />
+        </fillType>		
+        <fillType name="SOYBEAN_OIL" title="Soybean Oil" showOnPriceTable="true">
+            <physics massPerLiter="0.9" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="1.8">
+                <factors>
+                    <factor period="1"  value="0.92" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.08" />
+                    <factor period="4"  value="1.22" />
+                    <factor period="5"  value="1.10" />
+                    <factor period="6"  value="1.05" />
+                    <factor period="7"  value="0.93" />
+                    <factor period="8"  value="0.89" />
+                    <factor period="9"  value="0.85" />
+                    <factor period="10" value="0.84" />
+                    <factor period="11" value="0.81" />
+                    <factor period="12" value="0.95" />
+                </factors>
+            </economy>
+            <image      hud     ="img/hud_soybeanOil.dds" />
+            <pallet     filename="xml/vegetableoilPallet.xml" />
+        </fillType>				
+        <fillType name="LEVIS" title="Levi's Branded Clothes" showOnPriceTable="true">
+            <physics massPerLiter="0.9" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="2">
+                <factors>
+                    <factor period="1"  value="0.92" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.08" />
+                    <factor period="4"  value="1.22" />
+                    <factor period="5"  value="1.10" />
+                    <factor period="6"  value="1.05" />
+                    <factor period="7"  value="0.93" />
+                    <factor period="8"  value="0.89" />
+                    <factor period="9"  value="0.85" />
+                    <factor period="10" value="0.84" />
+                    <factor period="11" value="0.81" />
+                    <factor period="12" value="0.95" />
+                </factors>
+            </economy>
+            <image      hud     ="img/box_levis.dds" />
+            <pallet     filename="xml/clothesPallet.xml" />
+        </fillType>	
+        <fillType name="DICKIES" title="Dickies Branded Clothes" showOnPriceTable="true">
+            <physics massPerLiter="0.9" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="2">
+                <factors>
+                    <factor period="1"  value="0.93" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.14" />
+                    <factor period="4"  value="1.22" />
+                    <factor period="5"  value="1.12" />
+                    <factor period="6"  value="1.05" />
+                    <factor period="7"  value="0.95" />
+                    <factor period="8"  value="0.89" />
+                    <factor period="9"  value="0.85" />
+                    <factor period="10" value="0.94" />
+                    <factor period="11" value="0.81" />
+                    <factor period="12" value="0.95" />
+                </factors>
+            </economy>
+            <image      hud     ="img/store_dickies.dds" />
+            <pallet     filename="xml/clothesPallet.xml" />
+        </fillType>			
+	</fillTypes>
+
+    <fillTypeCategories>
+		<fillTypeCategory name="DBPRODUCTS">SEEDS1_BP1 SEEDS1_BP2 SEEDS1_BP3 COTTON1 SEEDS1 VEGETABLE_OIL CORN_OIL COTTONSEED_OIL SOYBEAN_OIL LEVIS DICKIES</fillTypeCategory>
+		<fillTypeCategory name="PRODUCT">SEEDS1_BP1 SEEDS1_BP2 SEEDS1_BP3 COTTON1 SEEDS1 VEGETABLE_OIL CORN_OIL COTTONSEED_OIL SOYBEAN_OIL LEVIS DICKIES</fillTypeCategory>
+        <fillTypeCategory name="BULK">SEEDS1_BP1 SEEDS1_BP2 SEEDS1_BP3 SEEDS1</fillTypeCategory>
+        <fillTypeCategory name="AUGERWAGON">SEEDS1_BP1 SEEDS1_BP2 SEEDS1_BP3 SEEDS1</fillTypeCategory>
+        <fillTypeCategory name="SHOVEL">SEEDS1_BP1 SEEDS1_BP2 SEEDS1_BP3 SEEDS1</fillTypeCategory>
+        <fillTypeCategory name="LOADINGVEHICLE">SEEDS1_BP1 SEEDS1_BP2 SEEDS1_BP3 SEEDS1</fillTypeCategory>
+    </fillTypeCategories>
+	
+	
+    <fillTypeSounds>
+		<fillTypeSound fillTypes="COTTON1">
+            <sound template="DEFAULT_SILO_FILL"/>
+        </fillTypeSound>
+        <fillTypeSound fillTypes="SEEDS1_BP1 SEEDS1_BP2 SEEDS1_BP3 SEEDS1">
+            <sound template="grainMediumFill"/>
+        </fillTypeSound>		
+    </fillTypeSounds>
+
+
+
+</map>

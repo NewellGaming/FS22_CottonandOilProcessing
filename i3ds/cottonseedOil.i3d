@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="oilPlant" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.2"/>
+  </Asset>
+
+  <Files>
+    <File fileId="39" filename="$data/maps/mapAlpine/textures/props/electricBox_diffuse.png"/>
+    <File fileId="40" filename="$data/maps/mapAlpine/textures/props/electricBox_normal.png"/>
+    <File fileId="41" filename="$data/maps/mapAlpine/textures/props/electricBox_specular.png"/>
+    <File fileId="149" filename="$data/maps/mapAlpine/textures/props/emptyRoom_diffuse.png"/>
+    <File fileId="150" filename="$data/maps/mapAlpine/textures/props/emptyRoom_specular.png"/>
+    <File fileId="167" filename="$data/maps/mapAlpine/textures/windowsCurtains01_diffuse.png"/>
+    <File fileId="168" filename="$data/maps/mapAlpine/textures/windowsCurtains01_normal.png"/>
+    <File fileId="169" filename="$data/maps/mapAlpine/textures/windowsCurtains01_specular.png"/>
+    <File fileId="155" filename="$data/maps/mapAlpine/textures/windowsGlass01_diffuse.png"/>
+    <File fileId="156" filename="$data/maps/mapAlpine/textures/windowsGlass01_specular.png"/>
+    <File fileId="146" filename="$data/maps/mapFR/textures/buildingDecalsRust_diffuse.png"/>
+    <File fileId="147" filename="$data/maps/mapFR/textures/buildingDecalsRust_normal.png"/>
+    <File fileId="148" filename="$data/maps/mapFR/textures/buildingDecalsRust_specular.png"/>
+    <File fileId="66" filename="$data/maps/mapFR/textures/props/concreteRoadBlock02_diffuse.png"/>
+    <File fileId="67" filename="$data/maps/mapFR/textures/props/concreteRoadBlock02_normal.png"/>
+    <File fileId="68" filename="$data/maps/mapFR/textures/props/concreteRoadBlock02_specular.png"/>
+    <File fileId="54" filename="$data/maps/mapUS/textures/bioMassPowerPlant01_diffuse.png"/>
+    <File fileId="58" filename="$data/maps/mapUS/textures/bioMassPowerPlant01_height.png"/>
+    <File fileId="57" filename="$data/maps/mapUS/textures/bioMassPowerPlant01_mask.png"/>
+    <File fileId="55" filename="$data/maps/mapUS/textures/bioMassPowerPlant01_normal.png"/>
+    <File fileId="56" filename="$data/maps/mapUS/textures/bioMassPowerPlant01_specular.png"/>
+    <File fileId="1" filename="$data/maps/mapUS/textures/bioMassPowerPlant02_diffuse.png"/>
+    <File fileId="9" filename="$data/maps/mapUS/textures/bioMassPowerPlant02_height.png"/>
+    <File fileId="5" filename="$data/maps/mapUS/textures/bioMassPowerPlant02_mask.png"/>
+    <File fileId="2" filename="$data/maps/mapUS/textures/bioMassPowerPlant02_normal.png"/>
+    <File fileId="3" filename="$data/maps/mapUS/textures/bioMassPowerPlant02_specular.png"/>
+    <File fileId="69" filename="$data/maps/mapUS/textures/buildingDecals01_diffuse.png"/>
+    <File fileId="70" filename="$data/maps/mapUS/textures/buildingDecals01_normal.png"/>
+    <File fileId="71" filename="$data/maps/mapUS/textures/buildingDecals01_specular.png"/>
+    <File fileId="13" filename="$data/maps/mapUS/textures/doorsSET_diffuse.png"/>
+    <File fileId="162" filename="$data/maps/mapUS/textures/grainFlourMill01_diffuse.png"/>
+    <File fileId="166" filename="$data/maps/mapUS/textures/grainFlourMill01_height.png"/>
+    <File fileId="165" filename="$data/maps/mapUS/textures/grainFlourMill01_mask.png"/>
+    <File fileId="163" filename="$data/maps/mapUS/textures/grainFlourMill01_normal.png"/>
+    <File fileId="164" filename="$data/maps/mapUS/textures/grainFlourMill01_specular.png"/>
+    <File fileId="157" filename="$data/maps/mapUS/textures/grainFlourMill02_diffuse.png"/>
+    <File fileId="161" filename="$data/maps/mapUS/textures/grainFlourMill02_height.png"/>
+    <File fileId="160" filename="$data/maps/mapUS/textures/grainFlourMill02_mask.png"/>
+    <File fileId="158" filename="$data/maps/mapUS/textures/grainFlourMill02_normal.png"/>
+    <File fileId="159" filename="$data/maps/mapUS/textures/grainFlourMill02_specular.png"/>
+    <File fileId="139" filename="$data/maps/mapUS/textures/grainFlourMill03_diffuse.png"/>
+    <File fileId="143" filename="$data/maps/mapUS/textures/grainFlourMill03_height.png"/>
+    <File fileId="142" filename="$data/maps/mapUS/textures/grainFlourMill03_mask.png"/>
+    <File fileId="140" filename="$data/maps/mapUS/textures/grainFlourMill03_normal.png"/>
+    <File fileId="141" filename="$data/maps/mapUS/textures/grainFlourMill03_specular.png"/>
+    <File fileId="10" filename="$data/maps/mapUS/textures/industrialWindows_diffuse.png"/>
+    <File fileId="11" filename="$data/maps/mapUS/textures/industrialWindows_normal.png"/>
+    <File fileId="12" filename="$data/maps/mapUS/textures/industrialWindows_specular.png"/>
+    <File fileId="36" filename="$data/maps/mapUS/textures/props/airConditionUSA_a_diffuse.png"/>
+    <File fileId="37" filename="$data/maps/mapUS/textures/props/airConditionUSA_a_normal.png"/>
+    <File fileId="38" filename="$data/maps/mapUS/textures/props/airConditionUSA_a_specular.png"/>
+    <File fileId="82" filename="$data/maps/mapUS/textures/props/airConditionUSA_alpha_diffuse.png"/>
+    <File fileId="83" filename="$data/maps/mapUS/textures/props/airConditionUSA_alpha_normal.png"/>
+    <File fileId="84" filename="$data/maps/mapUS/textures/props/airConditionUSA_alpha_specular.png"/>
+    <File fileId="79" filename="$data/maps/mapUS/textures/props/airConditionUSA_b_diffuse.png"/>
+    <File fileId="80" filename="$data/maps/mapUS/textures/props/airConditionUSA_b_normal.png"/>
+    <File fileId="81" filename="$data/maps/mapUS/textures/props/airConditionUSA_b_specular.png"/>
+    <File fileId="136" filename="$data/maps/mapUS/textures/props/airConditionUSA_c_diffuse.png"/>
+    <File fileId="137" filename="$data/maps/mapUS/textures/props/airConditionUSA_c_normal.png"/>
+    <File fileId="138" filename="$data/maps/mapUS/textures/props/airConditionUSA_c_specular.png"/>
+    <File fileId="128" filename="$data/maps/mapUS/textures/props/beachAndElectricityDecals_diffuse.png"/>
+    <File fileId="26" filename="$data/maps/mapUS/textures/props/chimneyPipe01_diffuse.png"/>
+    <File fileId="27" filename="$data/maps/mapUS/textures/props/chimneyPipe01_normal.png"/>
+    <File fileId="28" filename="$data/maps/mapUS/textures/props/chimneyPipe01_specular.png"/>
+    <File fileId="23" filename="$data/maps/mapUS/textures/props/chimneyPipe02_diffuse.png"/>
+    <File fileId="24" filename="$data/maps/mapUS/textures/props/chimneyPipe02_normal.png"/>
+    <File fileId="25" filename="$data/maps/mapUS/textures/props/chimneyPipe02_specular.png"/>
+    <File fileId="29" filename="$data/maps/mapUS/textures/props/electricalMeter_diffuse.png"/>
+    <File fileId="30" filename="$data/maps/mapUS/textures/props/electricalMeter_normal.png"/>
+    <File fileId="31" filename="$data/maps/mapUS/textures/props/electricalMeter_specular.png"/>
+    <File fileId="32" filename="$data/maps/mapUS/textures/props/electricityShed_diffuse.png"/>
+    <File fileId="33" filename="$data/maps/mapUS/textures/props/electricityShed_normal.png"/>
+    <File fileId="34" filename="$data/maps/mapUS/textures/props/electricityShed_specular.png"/>
+    <File fileId="62" filename="$data/maps/mapUS/textures/props/garbageContainerUS_diffuse.png"/>
+    <File fileId="63" filename="$data/maps/mapUS/textures/props/garbageContainerUS_normal.png"/>
+    <File fileId="64" filename="$data/maps/mapUS/textures/props/garbageContainerUS_specular.png"/>
+    <File fileId="15" filename="$data/maps/mapUS/textures/props/gasbox01_diffuse.png"/>
+    <File fileId="16" filename="$data/maps/mapUS/textures/props/gasbox01_normal.png"/>
+    <File fileId="17" filename="$data/maps/mapUS/textures/props/gasbox01_specular.png"/>
+    <File fileId="76" filename="$data/maps/mapUS/textures/props/gasmeterUS_diffuse.png"/>
+    <File fileId="77" filename="$data/maps/mapUS/textures/props/gasmeterUS_normal.png"/>
+    <File fileId="78" filename="$data/maps/mapUS/textures/props/gasmeterUS_specular.png"/>
+    <File fileId="129" filename="$data/maps/mapUS/textures/props/industrialWallLight_diffuse.png"/>
+    <File fileId="130" filename="$data/maps/mapUS/textures/props/industrialWallLight_normal.png"/>
+    <File fileId="131" filename="$data/maps/mapUS/textures/props/industrialWallLight_specular.png"/>
+    <File fileId="135" filename="$data/maps/mapUS/textures/props/lightWarm_emissive.png"/>
+    <File fileId="20" filename="$data/maps/mapUS/textures/props/propsDecalsUS_diffuse.png"/>
+    <File fileId="48" filename="$data/maps/mapUS/textures/props/siloVentilator01Grid_diffuse.png"/>
+    <File fileId="49" filename="$data/maps/mapUS/textures/props/siloVentilator01Grid_normal.png"/>
+    <File fileId="50" filename="$data/maps/mapUS/textures/props/siloVentilator01Grid_specular.png"/>
+    <File fileId="45" filename="$data/maps/mapUS/textures/props/siloVentilator01_diffuse.png"/>
+    <File fileId="46" filename="$data/maps/mapUS/textures/props/siloVentilator01_normal.png"/>
+    <File fileId="47" filename="$data/maps/mapUS/textures/props/siloVentilator01_specular.png"/>
+    <File fileId="42" filename="$data/maps/mapUS/textures/props/siloVentilatorPipeSet_diffuse.png"/>
+    <File fileId="43" filename="$data/maps/mapUS/textures/props/siloVentilatorPipeSet_normal.png"/>
+    <File fileId="44" filename="$data/maps/mapUS/textures/props/siloVentilatorPipeSet_specular.png"/>
+    <File fileId="174" filename="$data/maps/mapUS/textures/props/waterBarrelRack_diffuse.png"/>
+    <File fileId="175" filename="$data/maps/mapUS/textures/props/waterBarrelRack_normal.png"/>
+    <File fileId="176" filename="$data/maps/mapUS/textures/props/waterBarrelRack_specular.png"/>
+    <File fileId="144" filename="$data/maps/textures/shared/default_normal.png"/>
+    <File fileId="145" filename="$data/maps/textures/shared/default_specular.png"/>
+    <File fileId="126" filename="$data/maps/textures/shared/glass_diffuse.png"/>
+    <File fileId="96" filename="$data/maps/textures/shared/props/cageContainerNet_diffuse.png"/>
+    <File fileId="97" filename="$data/maps/textures/shared/props/cageContainerNet_normal.png"/>
+    <File fileId="98" filename="$data/maps/textures/shared/props/cageContainerNet_specular.png"/>
+    <File fileId="93" filename="$data/maps/textures/shared/props/cageContainer_diffuse.png"/>
+    <File fileId="94" filename="$data/maps/textures/shared/props/cageContainer_normal.png"/>
+    <File fileId="95" filename="$data/maps/textures/shared/props/cageContainer_specular.png"/>
+    <File fileId="99" filename="$data/maps/textures/shared/props/cardboardBoxes_diffuse.png"/>
+    <File fileId="100" filename="$data/maps/textures/shared/props/cardboardBoxes_normal.png"/>
+    <File fileId="101" filename="$data/maps/textures/shared/props/cardboardBoxes_specular.png"/>
+    <File fileId="88" filename="$data/maps/textures/shared/props/euroPallet01_normal.png"/>
+    <File fileId="89" filename="$data/maps/textures/shared/props/euroPallet01_specular.png"/>
+    <File fileId="87" filename="$data/maps/textures/shared/props/euroPallet02_diffuse.png"/>
+    <File fileId="114" filename="$data/maps/textures/shared/props/hammers_diffuse.png"/>
+    <File fileId="115" filename="$data/maps/textures/shared/props/hammers_normal.png"/>
+    <File fileId="116" filename="$data/maps/textures/shared/props/hammers_specular.png"/>
+    <File fileId="152" filename="$data/maps/textures/shared/props/icicles_diffuse.png"/>
+    <File fileId="153" filename="$data/maps/textures/shared/props/icicles_normal.png"/>
+    <File fileId="154" filename="$data/maps/textures/shared/props/icicles_specular.png"/>
+    <File fileId="59" filename="$data/maps/textures/shared/props/industrialHatch_diffuse.png"/>
+    <File fileId="60" filename="$data/maps/textures/shared/props/industrialHatch_normal.png"/>
+    <File fileId="61" filename="$data/maps/textures/shared/props/industrialHatch_specular.png"/>
+    <File fileId="111" filename="$data/maps/textures/shared/props/ladder_diffuse.png"/>
+    <File fileId="112" filename="$data/maps/textures/shared/props/ladder_normal.png"/>
+    <File fileId="113" filename="$data/maps/textures/shared/props/ladder_specular.png"/>
+    <File fileId="90" filename="$data/maps/textures/shared/props/metalTrashSet_diffuse.png"/>
+    <File fileId="91" filename="$data/maps/textures/shared/props/metalTrashSet_normal.png"/>
+    <File fileId="92" filename="$data/maps/textures/shared/props/metalTrashSet_specular.png"/>
+    <File fileId="108" filename="$data/maps/textures/shared/props/paintBucket_diffuse.png"/>
+    <File fileId="109" filename="$data/maps/textures/shared/props/paintBucket_normal.png"/>
+    <File fileId="110" filename="$data/maps/textures/shared/props/paintBucket_specular.png"/>
+    <File fileId="105" filename="$data/maps/textures/shared/props/palletTruck_diffuse.png"/>
+    <File fileId="106" filename="$data/maps/textures/shared/props/palletTruck_normal.png"/>
+    <File fileId="107" filename="$data/maps/textures/shared/props/palletTruck_specular.png"/>
+    <File fileId="85" filename="$data/maps/textures/shared/props/propsDecals_diffuse.png"/>
+    <File fileId="86" filename="$data/maps/textures/shared/props/propsDecals_specular.png"/>
+    <File fileId="120" filename="$data/maps/textures/shared/props/snowman01_diffuse.png"/>
+    <File fileId="121" filename="$data/maps/textures/shared/props/snowman01_normal.png"/>
+    <File fileId="122" filename="$data/maps/textures/shared/props/snowman01_specular.png"/>
+    <File fileId="117" filename="$data/maps/textures/shared/props/snowman02_diffuse.png"/>
+    <File fileId="118" filename="$data/maps/textures/shared/props/snowman02_normal.png"/>
+    <File fileId="119" filename="$data/maps/textures/shared/props/snowman02_specular.png"/>
+    <File fileId="123" filename="$data/maps/textures/shared/props/snowman03_diffuse.png"/>
+    <File fileId="124" filename="$data/maps/textures/shared/props/snowman03_normal.png"/>
+    <File fileId="125" filename="$data/maps/textures/shared/props/snowman03_specular.png"/>
+    <File fileId="102" filename="$data/maps/textures/shared/props/wagonwheelOld_diffuse.png"/>
+    <File fileId="103" filename="$data/maps/textures/shared/props/wagonwheelOld_normal.png"/>
+    <File fileId="104" filename="$data/maps/textures/shared/props/wagonwheelOld_specular.png"/>
+    <File fileId="171" filename="$data/maps/textures/shared/props/woodContainerCart_diffuse.png"/>
+    <File fileId="172" filename="$data/maps/textures/shared/props/woodContainerCart_normal.png"/>
+    <File fileId="173" filename="$data/maps/textures/shared/props/woodContainerCart_specular.png"/>
+    <File fileId="72" filename="$data/maps/textures/shared/snow_diffuse.png"/>
+    <File fileId="73" filename="$data/maps/textures/shared/snow_normal.png"/>
+    <File fileId="8" filename="$data/maps/textures/shared/snow_specular.png"/>
+    <File fileId="182" filename="$data/maps/textures/shared/warningStripes_diffuse.png"/>
+    <File fileId="183" filename="$data/maps/textures/shared/warningStripes_normal.png"/>
+    <File fileId="184" filename="$data/maps/textures/shared/warningStripes_specular.png"/>
+    <File fileId="18" filename="$data/maps/textures/shared/window_diffuse.png"/>
+    <File fileId="127" filename="$data/maps/textures/shared/window_specular.png"/>
+    <File fileId="177" filename="$data/placeables/lizard/limeStation/limeStation_diffuse.png"/>
+    <File fileId="180" filename="$data/placeables/lizard/limeStation/limeStation_mask.png"/>
+    <File fileId="178" filename="$data/placeables/lizard/limeStation/limeStation_normal.png"/>
+    <File fileId="179" filename="$data/placeables/lizard/limeStation/limeStation_specular.png"/>
+    <File fileId="4" filename="$data/shaders/buildingShader.xml"/>
+    <File fileId="22" filename="$data/shaders/decalShader.xml"/>
+    <File fileId="134" filename="$data/shaders/glowShader.xml"/>
+    <File fileId="35" filename="$data/shaders/placeableShader.xml"/>
+    <File fileId="74" filename="$data/shaders/snowHeapShader.xml"/>
+    <File fileId="170" filename="$data/shaders/translucencyShader.xml"/>
+    <File fileId="51" filename="$data/shared/assets/assetLibraryDecals_diffuse.png"/>
+    <File fileId="52" filename="$data/shared/assets/assetLibraryDecals_normal.png"/>
+    <File fileId="53" filename="$data/shared/assets/assetLibraryDecals_vmask.png"/>
+    <File fileId="65" filename="$data/shared/default_normal.png"/>
+    <File fileId="21" filename="$data/shared/default_specular.png"/>
+    <File fileId="132" filename="$data/shared/window02_diffuse.png"/>
+    <File fileId="133" filename="$data/shared/window02_specular.png"/>
+    <File fileId="19" filename="$data/shared/window_specular.png"/>
+    <File fileId="151" filename="../img/store_cottonGin.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="airConditionUSA_a_mat" materialId="4">
+      <Texture fileId="36"/>
+      <Normalmap fileId="37"/>
+      <Glossmap fileId="38"/>
+    </Material>
+    <Material name="airConditionUSA_alpha_mat" materialId="5" alphaBlending="true" customShaderId="22">
+      <Texture fileId="82"/>
+      <Normalmap fileId="83"/>
+      <Glossmap fileId="84"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+    </Material>
+    <Material name="airConditionUSA_b_mat" materialId="6">
+      <Texture fileId="79"/>
+      <Normalmap fileId="80"/>
+      <Glossmap fileId="81"/>
+    </Material>
+    <Material name="airConditionUSA_c_mat" materialId="7">
+      <Texture fileId="136"/>
+      <Normalmap fileId="137"/>
+      <Glossmap fileId="138"/>
+    </Material>
+    <Material name="assetLibraryDecals_mat" materialId="8">
+      <Texture fileId="51"/>
+      <Normalmap fileId="52"/>
+      <Glossmap fileId="53"/>
+    </Material>
+    <Material name="beachAndElectricityDecals_mat" materialId="9" alphaBlending="true">
+      <Texture fileId="128"/>
+      <Normalmap fileId="65"/>
+    </Material>
+    <Material name="bioMassPowerPlant01_mat" materialId="10" customShaderId="4" customShaderVariation="customParallax">
+      <Texture fileId="54"/>
+      <Normalmap fileId="55"/>
+      <Glossmap fileId="56"/>
+      <Custommap name="mMaskMap" fileId="57"/>
+      <Custommap name="mParallaxMap" fileId="58"/>
+      <CustomParameter name="dirtMossSmoothness" value="0.1 0.1 0 0"/>
+      <CustomParameter name="dirtMossMix" value="0.25 0.25 0 0"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+      <CustomParameter name="snowScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="bioMassPowerPlant02_mat" materialId="11" customShaderId="4" customShaderVariation="customParallax">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="mMaskMap" fileId="5"/>
+      <Custommap name="mParallaxMap" fileId="9"/>
+      <CustomParameter name="dirtMossSmoothness" value="0.12 0.12 0 0"/>
+      <CustomParameter name="dirtMossMix" value="1 0.5 0 0"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+      <CustomParameter name="snowScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="buildingDecals01_mat" materialId="12" alphaBlending="true" customShaderId="22">
+      <Texture fileId="69"/>
+      <Normalmap fileId="70"/>
+      <Glossmap fileId="71"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+    </Material>
+    <Material name="buildingDecalsRust_mat" materialId="13" alphaBlending="true" customShaderId="22">
+      <Texture fileId="146"/>
+      <Normalmap fileId="147"/>
+      <Glossmap fileId="148"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+    </Material>
+    <Material name="cageContainer_mat" materialId="14">
+      <Texture fileId="93"/>
+      <Normalmap fileId="94"/>
+      <Glossmap fileId="95"/>
+    </Material>
+    <Material name="cageContainerNet_mat" materialId="15" alphaBlending="true">
+      <Texture fileId="96"/>
+      <Normalmap fileId="97"/>
+      <Glossmap fileId="98"/>
+    </Material>
+    <Material name="cardboardBoxes_mat" materialId="16">
+      <Texture fileId="99"/>
+      <Normalmap fileId="100"/>
+      <Glossmap fileId="101"/>
+    </Material>
+    <Material name="chimneyPipe01_mat" materialId="17">
+      <Texture fileId="26"/>
+      <Normalmap fileId="27"/>
+      <Glossmap fileId="28"/>
+    </Material>
+    <Material name="chimneyPipe02_mat" materialId="18">
+      <Texture fileId="23"/>
+      <Normalmap fileId="24"/>
+      <Glossmap fileId="25"/>
+    </Material>
+    <Material name="clearGlass_mat" materialId="19" alphaBlending="true">
+      <Texture fileId="126"/>
+      <Normalmap fileId="65"/>
+      <Glossmap fileId="127"/>
+    </Material>
+    <Material name="concreteRoadBlock02_mat" materialId="20">
+      <Texture fileId="66"/>
+      <Normalmap fileId="67"/>
+      <Glossmap fileId="68"/>
+    </Material>
+    <Material name="doors_mat" materialId="22">
+      <Texture fileId="13"/>
+    </Material>
+    <Material name="doorsSET_mat" materialId="23">
+      <Texture fileId="13"/>
+      <Normalmap fileId="144"/>
+      <Glossmap fileId="145"/>
+    </Material>
+    <Material name="electricalMeter_mat" materialId="24">
+      <Texture fileId="29"/>
+      <Normalmap fileId="30"/>
+      <Glossmap fileId="31"/>
+    </Material>
+    <Material name="electricBox_mat" materialId="25">
+      <Texture fileId="39"/>
+      <Normalmap fileId="40"/>
+      <Glossmap fileId="41"/>
+    </Material>
+    <Material name="electricityBox02Decals_mat" materialId="26" alphaBlending="true">
+      <Glossmap fileId="21"/>
+    </Material>
+    <Material name="electricityShed_mat" materialId="27" customShaderId="35">
+      <Texture fileId="32"/>
+      <Normalmap fileId="33"/>
+      <Glossmap fileId="34"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+      <CustomParameter name="snowScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="emptyRoom_mat" materialId="28" customShaderId="134" customShaderVariation="alphaTestDisable">
+      <Texture fileId="149"/>
+      <Glossmap fileId="150"/>
+      <CustomParameter name="lightControl" value="1.5 0 0 0.12"/>
+    </Material>
+    <Material name="euroPallet02_mat" materialId="29">
+      <Texture fileId="87"/>
+      <Normalmap fileId="88"/>
+      <Glossmap fileId="89"/>
+    </Material>
+    <Material name="garbageContainerUS_mat" materialId="30" customShaderId="35">
+      <Texture fileId="62"/>
+      <Normalmap fileId="63"/>
+      <Glossmap fileId="64"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+      <CustomParameter name="snowScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="gasbox01_mat" materialId="31">
+      <Texture fileId="15"/>
+      <Normalmap fileId="16"/>
+      <Glossmap fileId="17"/>
+    </Material>
+    <Material name="gasmeterUS_mat" materialId="32">
+      <Texture fileId="76"/>
+      <Normalmap fileId="77"/>
+      <Glossmap fileId="78"/>
+    </Material>
+    <Material name="grainFlourMill01_mat" materialId="33" customShaderId="4" customShaderVariation="customParallax">
+      <Texture fileId="162"/>
+      <Normalmap fileId="163"/>
+      <Glossmap fileId="164"/>
+      <Custommap name="mMaskMap" fileId="165"/>
+      <Custommap name="mParallaxMap" fileId="166"/>
+      <CustomParameter name="dirtMossSmoothness" value="0.12 0.12 0 0"/>
+      <CustomParameter name="dirtMossMix" value="1 1 0 0"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+      <CustomParameter name="snowScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="grainFlourMill02_mat" materialId="34" customShaderId="4" customShaderVariation="customParallax">
+      <Texture fileId="157"/>
+      <Normalmap fileId="158"/>
+      <Glossmap fileId="159"/>
+      <Custommap name="mMaskMap" fileId="160"/>
+      <Custommap name="mParallaxMap" fileId="161"/>
+      <CustomParameter name="dirtMossSmoothness" value="0.12 0.12 0 0"/>
+      <CustomParameter name="dirtMossMix" value="1 1 0 0"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+      <CustomParameter name="snowScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="grainFlourMill03_mat" materialId="35" customShaderId="4" customShaderVariation="customParallax">
+      <Texture fileId="139"/>
+      <Normalmap fileId="140"/>
+      <Glossmap fileId="141"/>
+      <Custommap name="mMaskMap" fileId="142"/>
+      <Custommap name="mParallaxMap" fileId="143"/>
+      <CustomParameter name="dirtMossSmoothness" value="0.12 0.12 0 0"/>
+      <CustomParameter name="dirtMossMix" value="1 1 0 0"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+      <CustomParameter name="snowScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="grainFlourMillDecalA_mat" materialId="36">
+      <Texture fileId="151"/>
+      <Normalmap fileId="144"/>
+      <Glossmap fileId="145"/>
+    </Material>
+    <Material name="grainFlourMillDecalB_mat" materialId="37" alphaBlending="true" customShaderId="22">
+      <Texture fileId="151"/>
+      <Normalmap fileId="144"/>
+      <Glossmap fileId="145"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+    </Material>
+    <Material name="hammers_mat" materialId="38">
+      <Texture fileId="114"/>
+      <Normalmap fileId="115"/>
+      <Glossmap fileId="116"/>
+    </Material>
+    <Material name="icicles_mat" materialId="39" alphaBlending="true" customShaderId="74" customShaderVariation="icicle">
+      <Texture fileId="152"/>
+      <Normalmap fileId="153"/>
+      <Glossmap fileId="154"/>
+      <Refractionmap coeff="1" bumpScale="0.1"/>
+    </Material>
+    <Material name="industrialHatch_mat" materialId="40">
+      <Texture fileId="59"/>
+      <Normalmap fileId="60"/>
+      <Glossmap fileId="61"/>
+    </Material>
+    <Material name="industrialWallLight_mat" materialId="41">
+      <Texture fileId="129"/>
+      <Normalmap fileId="130"/>
+      <Glossmap fileId="131"/>
+    </Material>
+    <Material name="industrialWallLight_mat" materialId="42" customShaderId="134" customShaderVariation="customEmissiveMap">
+      <Texture fileId="129"/>
+      <Normalmap fileId="130"/>
+      <Glossmap fileId="131"/>
+      <Custommap name="mEmissiveMap" fileId="135"/>
+      <CustomParameter name="lightControl" value="5 0 0 0"/>
+    </Material>
+    <Material name="industrialWindows_mat" materialId="43" alphaBlending="true">
+      <Texture fileId="10"/>
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="12"/>
+    </Material>
+    <Material name="ladder_mat" materialId="44">
+      <Texture fileId="111"/>
+      <Normalmap fileId="112"/>
+      <Glossmap fileId="113"/>
+    </Material>
+    <Material name="lambert1" materialId="45" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="limeStation_mat" materialId="46" customShaderId="4">
+      <Texture fileId="177"/>
+      <Normalmap fileId="178"/>
+      <Glossmap fileId="179"/>
+      <Custommap name="mMaskMap" fileId="180"/>
+      <CustomParameter name="dirtMossSmoothness" value="0.12 0.12 0 0"/>
+      <CustomParameter name="dirtMossMix" value="1 1 0 0"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+      <CustomParameter name="snowScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="metalTrashSet_mat" materialId="47">
+      <Texture fileId="90"/>
+      <Normalmap fileId="91"/>
+      <Glossmap fileId="92"/>
+    </Material>
+    <Material name="paintBucket_mat" materialId="48">
+      <Texture fileId="108"/>
+      <Normalmap fileId="109"/>
+      <Glossmap fileId="110"/>
+    </Material>
+    <Material name="palletTruck_mat" materialId="49">
+      <Texture fileId="105"/>
+      <Normalmap fileId="106"/>
+      <Glossmap fileId="107"/>
+    </Material>
+    <Material name="propsDecals_mat" materialId="50" alphaBlending="true" customShaderId="22">
+      <Texture fileId="85"/>
+      <Glossmap fileId="86"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+    </Material>
+    <Material name="propsDecalsUS_mat" materialId="51" alphaBlending="true" customShaderId="22">
+      <Texture fileId="20"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+    </Material>
+    <Material name="propsDecalsUS_mat" materialId="52" alphaBlending="true" customShaderId="22">
+      <Texture fileId="20"/>
+      <Glossmap fileId="21"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+    </Material>
+    <Material name="propsDecalsUS_mat" materialId="53" alphaBlending="true" customShaderId="22">
+      <Texture fileId="20"/>
+      <Normalmap fileId="65"/>
+      <Glossmap fileId="21"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+    </Material>
+    <Material name="siloVentilator01_mat" materialId="54" customShaderId="35">
+      <Texture fileId="45"/>
+      <Normalmap fileId="46"/>
+      <Glossmap fileId="47"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+      <CustomParameter name="snowScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="siloVentilator01Grid_mat" materialId="55" alphaBlending="true" customShaderId="22">
+      <Texture fileId="48"/>
+      <Normalmap fileId="49"/>
+      <Glossmap fileId="50"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+    </Material>
+    <Material name="siloVentilatorPipeSet_mat" materialId="56" customShaderId="35">
+      <Texture fileId="42"/>
+      <Normalmap fileId="43"/>
+      <Glossmap fileId="44"/>
+      <CustomParameter name="placeableColorScale" value="0 1 0 0"/>
+      <CustomParameter name="snowScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="snow_mat" materialId="57" customShaderId="74">
+      <Texture fileId="72"/>
+      <Normalmap fileId="73" bumpDepth="0.5"/>
+    </Material>
+    <Material name="snow_mat" materialId="58" customShaderId="74">
+      <Texture fileId="72"/>
+      <Normalmap fileId="73" bumpDepth="0.5"/>
+      <Glossmap fileId="8"/>
+    </Material>
+    <Material name="snowman01_mat" materialId="59">
+      <Texture fileId="120"/>
+      <Normalmap fileId="121"/>
+      <Glossmap fileId="122"/>
+    </Material>
+    <Material name="snowman02_mat" materialId="60">
+      <Texture fileId="117"/>
+      <Normalmap fileId="118"/>
+      <Glossmap fileId="119"/>
+    </Material>
+    <Material name="snowman03_mat" materialId="61">
+      <Texture fileId="123"/>
+      <Normalmap fileId="124"/>
+      <Glossmap fileId="125"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="780" diffuseColor="1 1 1 1">
+    </Material>
+    <Material name="wagonWheel_mat" materialId="63">
+      <Texture fileId="102"/>
+      <Normalmap fileId="103"/>
+      <Glossmap fileId="104"/>
+    </Material>
+    <Material name="warningStripes_mat" materialId="64">
+      <Texture fileId="182"/>
+      <Normalmap fileId="183"/>
+      <Glossmap fileId="184"/>
+    </Material>
+    <Material name="waterBarrelRack_mat" materialId="65">
+      <Texture fileId="174"/>
+      <Normalmap fileId="175"/>
+      <Glossmap fileId="176"/>
+    </Material>
+    <Material name="window02_mat" materialId="66" alphaBlending="true">
+      <Texture fileId="18"/>
+      <Glossmap fileId="19"/>
+    </Material>
+    <Material name="window02_mat" materialId="67" alphaBlending="true" customShaderId="134">
+      <Texture fileId="132"/>
+      <Normalmap fileId="65"/>
+      <Glossmap fileId="133"/>
+      <CustomParameter name="lightControl" value="1 0 0 0"/>
+    </Material>
+    <Material name="windowsCurtains01_mat" materialId="68" customShaderId="170">
+      <Texture fileId="167"/>
+      <Normalmap fileId="168"/>
+      <Glossmap fileId="169"/>
+      <CustomParameter name="translucencyAmount" value="0.5 0.12 0 0"/>
+      <CustomParameter name="mixAmount" value="0 0 0 0"/>
+      <CustomParameter name="col0" value="0.5 0.5 0.5 0"/>
+      <CustomParameter name="snowScale" value="1 0 0 0"/>
+    </Material>
+    <Material name="windowsGlass01_mat" materialId="69" alphaBlending="true">
+      <Texture fileId="155"/>
+      <Glossmap fileId="156"/>
+    </Material>
+    <Material name="woodContainerCart_mat" materialId="70">
+      <Texture fileId="171"/>
+      <Normalmap fileId="172"/>
+      <Glossmap fileId="173"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="cottonseedOil.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="cottonProcessingPlant" translation="0 0 -7.4829" nodeId="265">
+        <TransformGroup name="visual" translation="10.2352 0 5.69448" nodeId="266">
+          <TransformGroup name="LOD0" nodeId="267">
+            <TransformGroup name="Visual" translation="13.5019 0.097259 0.54" rotation="-180 0 -180" nodeId="268">
+              <TransformGroup name="campo" translation="15.6988 0.233493 19.1623" clipDistance="350" nodeId="269">
+                <Camera name="gui_camera" translation="52.0346 58.802 -28.2725" rotation="-71.1996 77.8992 3.61727e-05" nodeId="270" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+                <TransformGroup name="GroupName" translation="-7.376 -0.376 -16.7599" nodeId="271"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="bioMassPowerPlantBox03_PLACE" translation="-29.2352 0 -11.1196" rotation="180 -0 180" nodeId="272">
+            <TransformGroup name="bioMassPowerPlantBox03" translation="0 -7.62939e-06 0" rotation="-3.64247e-06 -0 3.64246e-06" scale="1.5 1.5 1.5" nodeId="273" lodDistance="0 90">
+              <TransformGroup name="LOD0" nodeId="274">
+                <Shape shapeId="1" name="bioMassPowerPlantBox03" clipDistance="400" nodeId="275" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="2" name="windows" clipDistance="400" nodeId="276" materialIds="43" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="3" name="doors" clipDistance="400" nodeId="277" materialIds="22" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+              <TransformGroup name="LOD1" translation="-146 0 -40" nodeId="278">
+                <Shape shapeId="4" name="doors" translation="146 -1.74846e-06 40" static="true" clipDistance="150" nodeId="279" materialIds="22" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="5" name="bioMassPowerPlantBox03_LOD" translation="146 -1.74846e-06 40" static="true" clipDistance="350" nodeId="280" materialIds="11" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+              <Shape shapeId="6" name="occluderMesh" translation="0 -1.74846e-06 0" clipDistance="250" nodeId="281" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true"/>
+            </TransformGroup>
+            <TransformGroup name="attachments" translation="0 -7.62939e-06 7.08125e-06" rotation="-3.64247e-06 -9.16e-13 3.64246e-06" nodeId="282">
+              <Shape shapeId="7" name="gasbox01" lockedgroup="true" translation="3.71001 1.39393 4.49398" rotation="-9.71441e-06 5.68898e-06 3.64839e-06" clipDistance="70" nodeId="283" materialIds="31" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="8" name="glass" clipDistance="20" nodeId="284" materialIds="66" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="9" name="decal" static="true" density="0.0001" clipDistance="20" nodeId="285" materialIds="52" castsShadows="true" receiveShadows="true" nonRenderable="true" decalLayer="1"/>
+                <Shape shapeId="10" name="col" translation="4.52509e-08 0.00450008 0.107035" visibility="false" static="true" density="0.0001" nodeId="286" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              </Shape>
+              <Shape shapeId="11" name="chimneyPipe02" lockedgroup="true" translation="5.95649 4.55582 3.82037" rotation="180 -76 180" clipDistance="90" nodeId="287" materialIds="18" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="12" name="col" visibility="false" static="true" density="0.0001" nodeId="288" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              </Shape>
+              <Shape shapeId="13" name="chimneyPipe01" lockedgroup="true" translation="6.88145 4.5558 -3.24298" rotation="180 -76 180" clipDistance="60" nodeId="289" materialIds="17" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="14" name="col" visibility="false" static="true" density="0.0001" nodeId="290" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              </Shape>
+              <Shape shapeId="15" name="electricalMeterWallBox02" lockedgroup="true" translation="7.49663 3.78121 -3.82928" rotation="-180 -90 0" clipDistance="70" nodeId="291" materialIds="24" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="16" name="electricalMeterWallBox03" lockedgroup="true" translation="6.61578 1.16333 4.48465" rotation="7.75668e-13 3.41339e-06 -6.9729e-13" clipDistance="20" nodeId="292" materialIds="24" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="17" name="electricityBoxSeparate" lockedgroup="true" translation="-6.66453 7.47117e-06 5.1481" rotation="-1.64859e-06 90 -1.58152e-06" static="true" density="0.0001" nodeId="293" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="18" name="electricityBoxSeparateVis" translation="1.35554 -2.04681e-07 0" rotation="-180 0 180" clipDistance="170" nodeId="294" materialIds="27" castsShadows="true" receiveShadows="true"/>
+              </Shape>
+              <Shape shapeId="19" name="airConditionGround01" lockedgroup="true" translation="-6.94903 -0.00234239 -5.00442" rotation="-180 0 180" clipDistance="140" nodeId="295" materialIds="4" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="20" name="decals" clipDistance="70" nodeId="296" materialIds="51" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                <Shape shapeId="21" name="col" translation="-1.45232e-07 0 0" visibility="false" static="true" nodeId="297" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              </Shape>
+              <Shape shapeId="22" name="electricBox" lockedgroup="true" translation="-5.50782 -3.83463e-07 -4.75759" rotation="180 -4.55119e-06 180" static="true" nodeId="298" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="23" name="electricBoxVis" translation="0 -5.67631e-08 0" clipDistance="100" nodeId="299" materialIds="25" castsShadows="true" receiveShadows="true"/>
+              </Shape>
+              <Shape shapeId="17" name="electricityBoxSeparate" lockedgroup="true" translation="6.42789 7.64311e-06 2.03519" rotation="0 0 6.70128e-08" scale="1.5 1.5 1.5" static="true" density="0.0001" nodeId="300" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                <Shape shapeId="18" name="electricityBoxSeparateVis" clipDistance="170" nodeId="301" materialIds="27" castsShadows="true" receiveShadows="true"/>
+              </Shape>
+              <TransformGroup name="ventilationPipe" lockedgroup="true" translation="-6.1603 4.33371 -4.94176" rotation="1.36604e-05 2.66023e-12 -1.36604e-05" nodeId="302">
+                <Shape shapeId="24" name="ventilationPipeCorner02" translation="0.25 -5.70197e-14 2.00168" rotation="180 90 180" static="true" density="0.0001" clipDistance="190" nodeId="303" materialIds="56" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="25" name="ventilationPipeJunction" translation="0.249999 0 5" rotation="0.000283166 -90 -0.000291949" static="true" density="0.0001" clipDistance="150" nodeId="304" materialIds="56" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="26" name="ventilationPipeStraight02" translation="0.249999 5.07035e-12 7" rotation="180 90 180" static="true" density="0.0001" clipDistance="190" nodeId="305" materialIds="56" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="27" name="ventilationPipeCorner01" translation="0.249313 -6.33432e-07 7.99434" rotation="180 90 180" static="true" density="0.0001" clipDistance="200" nodeId="306" materialIds="56" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="26" name="ventilationPipeStraight02" translation="0.25 -5.07035e-12 3" rotation="180 90 180" static="true" density="0.0001" clipDistance="190" nodeId="307" materialIds="56" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="28" name="siloVentilator01" lockedgroup="true" translation="1.686 0 7.50507" rotation="-0.000964855 88.661 -0.000955942" static="true" density="0.0001" nodeId="308" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                  <Shape shapeId="29" name="siloVentilator01Vis" translation="0 7.62939e-07 0" clipDistance="190" nodeId="309" materialIds="54" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="30" name="grid" translation="-4.19617e-07 -7.62939e-07 -1.42109e-16" clipDistance="50" nodeId="310" materialIds="55" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="31" name="decals" translation="-4.19617e-07 -7.62939e-07 -1.42109e-16" clipDistance="50" nodeId="311" materialIds="26" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                    <Shape shapeId="32" name="screwDecals" translation="-4.19617e-07 -7.62939e-07 -1.42109e-16" clipDistance="50" nodeId="312" materialIds="8" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                  </Shape>
+                </Shape>
+                <Shape shapeId="28" name="siloVentilator01" lockedgroup="true" translation="-1.31172 1.5159 9.62924" rotation="-90 90 -0.000955942" static="true" density="0.0001" nodeId="313" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                  <Shape shapeId="29" name="siloVentilator01Vis" translation="0 7.62939e-07 0" clipDistance="190" nodeId="314" materialIds="54" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="30" name="grid" translation="-4.19617e-07 -7.62939e-07 -1.42109e-16" clipDistance="50" nodeId="315" materialIds="55" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="31" name="decals" translation="-4.19617e-07 -7.62939e-07 -1.42109e-16" clipDistance="50" nodeId="316" materialIds="26" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                    <Shape shapeId="32" name="screwDecals" translation="-4.19617e-07 -7.62939e-07 -1.42109e-16" clipDistance="50" nodeId="317" materialIds="8" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                  </Shape>
+                </Shape>
+                <Shape shapeId="28" name="siloVentilator01" lockedgroup="true" translation="-1.31684 1.5159 5.00118" rotation="-90 90 -0.000979338" static="true" density="0.0001" nodeId="318" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                  <Shape shapeId="29" name="siloVentilator01Vis" translation="0 7.62939e-07 0" clipDistance="190" nodeId="319" materialIds="54" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="30" name="grid" translation="-4.19617e-07 -7.62939e-07 -1.42109e-16" clipDistance="50" nodeId="320" materialIds="55" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="31" name="decals" translation="-4.19617e-07 -7.62939e-07 -1.42109e-16" clipDistance="50" nodeId="321" materialIds="26" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                    <Shape shapeId="32" name="screwDecals" translation="-4.19617e-07 -7.62939e-07 -1.42109e-16" clipDistance="50" nodeId="322" materialIds="8" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                  </Shape>
+                </Shape>
+                <Shape shapeId="28" name="siloVentilator01" lockedgroup="true" translation="-1.31684 1.5159 0.37271" rotation="-90 90 -0.000979338" static="true" density="0.0001" nodeId="323" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                  <Shape shapeId="29" name="siloVentilator01Vis" translation="0 7.62939e-07 0" clipDistance="190" nodeId="324" materialIds="54" castsShadows="true" receiveShadows="true">
+                    <Shape shapeId="30" name="grid" translation="-4.19617e-07 -7.62939e-07 -1.42109e-16" clipDistance="50" nodeId="325" materialIds="55" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="31" name="decals" translation="-4.19617e-07 -7.62939e-07 -1.42109e-16" clipDistance="50" nodeId="326" materialIds="26" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                    <Shape shapeId="32" name="screwDecals" translation="-4.19617e-07 -7.62939e-07 -1.42109e-16" clipDistance="50" nodeId="327" materialIds="8" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                  </Shape>
+                </Shape>
+              </TransformGroup>
+              <Shape shapeId="33" name="doorFrame" lockedgroup="true" translation="5.26015 0.024704 4.55964" rotation="-2.86872e-05 90 0" clipDistance="300" nodeId="328" materialIds="10" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="34" name="door" clipDistance="300" nodeId="329" materialIds="22" castsShadows="true" receiveShadows="true"/>
+              </Shape>
+              <Shape shapeId="35" name="industrialHatch" lockedgroup="true" translation="-1.5613 1.52588e-05 -5.0868" rotation="8.65142e-06 90 0" scale="1.08174 1.08174 1.08174" clipDistance="60" nodeId="330" materialIds="40" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="36" name="col" visibility="false" static="true" density="0.0001" nodeId="331" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              </Shape>
+            </TransformGroup>
+            <Shape shapeId="37" name="gabageContainerUS01" lockedgroup="true" translation="4.62654 0 -5.2384" rotation="-180 -0.944 180" clipDistance="100" nodeId="332" materialIds="30" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="38" name="decal" translation="0 -0.00552211 -4.44089e-18" clipDistance="100" nodeId="333" materialIds="53" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="39" name="door01" translation="0 1.44736 -0.561524" clipDistance="100" nodeId="334" materialIds="30" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="40" name="door02" translation="0 1.44736 -0.561524" clipDistance="100" nodeId="335" materialIds="30" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="41" name="gabageContainerWheel01" translation="-0.75 0.25 -0.656774" clipDistance="100" nodeId="336" materialIds="30" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="41" name="gabageContainerWheel02" translation="-0.75 0.25 0.468226" clipDistance="100" nodeId="337" materialIds="30" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="42" name="gabageContainerWheel03" translation="0.75 0.25 0.468226" clipDistance="100" nodeId="338" materialIds="30" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="42" name="gabageContainerWheel04" translation="0.75 0.25 -0.656774" clipDistance="100" nodeId="339" materialIds="30" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="43" name="col" translation="0 0 -0.0317745" visibility="false" static="true" nodeId="340" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </Shape>
+            <Shape shapeId="44" name="gabageContainerUS02" lockedgroup="true" translation="2.36783 0 -5.35314" rotation="180 2.451 -180" clipDistance="100" nodeId="341" materialIds="30" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="45" name="decal" clipDistance="100" nodeId="342" materialIds="53" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <Shape shapeId="46" name="door01" translation="0 1.72619 -0.155991" clipDistance="100" nodeId="343" materialIds="30" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="47" name="door02" translation="0 1.72619 -0.155991" clipDistance="100" nodeId="344" materialIds="30" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="48" name="col" visibility="false" static="true" nodeId="345" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </Shape>
+            <Shape shapeId="49" name="concreteRoadBlock02" translation="-2.5815 0 4.89521" rotation="-180 -0.932876 -180" static="true" clipDistance="90" nodeId="346" materialIds="20" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="49" name="concreteRoadBlock02" translation="0.798296 0 4.8252" rotation="-180 1.27059 -180" static="true" clipDistance="90" nodeId="347" materialIds="20" castsShadows="true" receiveShadows="true"/>
+            <TransformGroup name="bioMassPowerPlantShack01_PLACE" translation="-42.4778 1.65144e-06 5.8727" rotation="180 -4.37897e-13 180" nodeId="348">
+              <TransformGroup name="reflective_bioMassPowerPlantShack01" objectMask="16712703" nodeId="349">
+                <TransformGroup name="bioMassPowerPlantShack01" rotation="-9.70628e-20 -0 1.1466e-11" scale="1.5 1.5 1.5" nodeId="350" lodDistance="0 100">
+                  <TransformGroup name="LOD0" nodeId="351">
+                    <Shape shapeId="50" name="bioMassPowerPlantShack01" clipDistance="400" nodeId="352" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="51" name="windows" clipDistance="400" nodeId="353" materialIds="45" castsShadows="true" receiveShadows="true"/>
+                    <TransformGroup name="decals" nodeId="354">
+                      <Shape shapeId="52" name="decals_building" translation="-0.0179355 2.02043 3.15622" rotation="0 90 0" clipDistance="120" nodeId="355" materialIds="12" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                    </TransformGroup>
+                    <TransformGroup name="winter" nodeId="356">
+                      <Shape shapeId="53" name="snow" clipDistance="100" nodeId="357" materialIds="57" castsShadows="true" receiveShadows="true" weatherRequiredMask="1024"/>
+                    </TransformGroup>
+                  </TransformGroup>
+                  <TransformGroup name="LOD1" translation="-162 0 40" nodeId="358">
+                    <Shape shapeId="54" name="bioMassPowerPlantShack01_LOD" translation="162 1.74846e-06 -40" static="true" clipDistance="400" nodeId="359" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  </TransformGroup>
+                  <Shape shapeId="55" name="occluderMesh" translation="0 1.75476e-06 0" clipDistance="250" nodeId="360" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true"/>
+                </TransformGroup>
+              </TransformGroup>
+              <TransformGroup name="attachments" translation="0 0 2.07952e-34" rotation="0 -6.89673e-34 0" nodeId="361">
+                <Shape shapeId="15" name="electricalMeterWallBox02" lockedgroup="true" translation="5.83 0.618731 -8.80023" rotation="3.77526e-06 90 0" clipDistance="70" nodeId="362" materialIds="24" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="22" name="electricBox" lockedgroup="true" translation="6.25032 -0.0793381 6.03989" rotation="8.10716e-13 90 0" static="true" nodeId="363" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                  <Shape shapeId="23" name="electricBoxVis" clipDistance="100" nodeId="364" materialIds="25" castsShadows="true" receiveShadows="true"/>
+                </Shape>
+                <Shape shapeId="7" name="gasbox01" lockedgroup="true" translation="5.8297 0.896861 -2.23058" rotation="-3.86158e-13 90 0" clipDistance="70" nodeId="365" materialIds="31" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="8" name="glass" clipDistance="20" nodeId="366" materialIds="66" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="9" name="decal" static="true" density="0.0001" clipDistance="20" nodeId="367" materialIds="52" castsShadows="true" receiveShadows="true" nonRenderable="true" decalLayer="1"/>
+                  <Shape shapeId="10" name="col" translation="4.52509e-08 0.00450008 0.107035" visibility="false" static="true" density="0.0001" nodeId="368" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                </Shape>
+                <Shape shapeId="56" name="gasmeterLargeUS" lockedgroup="true" translation="7.23944 -0.0601096 -4.04004" rotation="8.14222e-13 90 0" clipDistance="100" nodeId="369" materialIds="32" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="57" name="decal" static="true" density="0.0001" clipDistance="20" nodeId="370" materialIds="52" castsShadows="true" receiveShadows="true" nonRenderable="true" decalLayer="1"/>
+                  <Shape shapeId="58" name="col" translation="-0.0361054 1.21631 0.037226" visibility="false" static="true" density="0.0001" nodeId="371" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                </Shape>
+                <TransformGroup name="lamps" translation="-98.5555 5.25315 -29.4709" rotation="8.14222e-13 90 0" nodeId="372"/>
+                <Shape shapeId="59" name="airConditionWall" lockedgroup="true" translation="4.48393 2.60659 -9.35524" rotation="-180 0 -180" clipDistance="90" nodeId="373" materialIds="6" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="60" name="rotor" translation="0 0 0.203397" clipDistance="30" nodeId="374" materialIds="6" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="61" name="alpha" translation="0 0 0.203397" clipDistance="50" nodeId="375" materialIds="5" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="62" name="decals" translation="0 0 0.203397" clipDistance="40" nodeId="376" materialIds="51" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                  <Shape shapeId="63" name="col" translation="0.172867 -0.0164132 0.128737" visibility="false" static="true" nodeId="377" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                </Shape>
+              </TransformGroup>
+              <TransformGroup name="oldMetalPile03_PREFAB" lockedgroup="true" translation="-5.12197 0 -10.043" rotation="-7.27905e-06 -0.955 1.37616e-05" nodeId="378">
+                <Shape shapeId="64" name="euroPalletOld" lockedgroup="true" translation="0 0 -1.34718e-14" static="true" nodeId="379" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                  <Shape shapeId="65" name="decal" clipDistance="50" nodeId="380" materialIds="50" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                  <Shape shapeId="66" name="euroPalletOld_vis" rotation="-1.01778e-11 0 0" clipDistance="80" nodeId="381" materialIds="29" castsShadows="true" receiveShadows="true"/>
+                </Shape>
+                <Shape shapeId="67" name="oldMetalPile03" lockedgroup="true" translation="-6.10352e-05 0.165871 -0.000416774" rotation="-180 88.5085 -180" clipDistance="130" nodeId="382" materialIds="47" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="68" name="col" translation="0.464245 -5e-07 -0.870769" visibility="false" static="true" density="0.0001" nodeId="383" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                </Shape>
+              </TransformGroup>
+              <TransformGroup name="cageContainerFilled_PREFAB" lockedgroup="true" translation="4.83589 0 9.74146" rotation="-1.19528e-05 89.6725 -2.92553e-05" nodeId="384">
+                <Shape shapeId="69" name="cageContainer" lockedgroup="true" translation="0 0.0645395 0" static="true" clipDistance="100" nodeId="385" materialIds="14" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="70" name="grid" clipDistance="100" nodeId="386" materialIds="15" castsShadows="true" receiveShadows="true"/>
+                </Shape>
+                <TransformGroup name="cardboardBoxes" translation="0.192139 0.367175 -0.0470467" nodeId="387">
+                  <Shape shapeId="71" name="cardboardBoxClosed01" translation="0.277954 0.0692596 -0.351048" static="true" density="0.0001" nodeId="388" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                    <Shape shapeId="72" name="visual" translation="7.62939e-08 0 1.52588e-07" clipDistance="20" nodeId="389" materialIds="16" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                  <Shape shapeId="73" name="cardboardBoxClosed02" translation="-0.096817 0.0602112 -0.173824" static="true" density="0.0001" nodeId="390" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                    <Shape shapeId="74" name="visual" clipDistance="30" nodeId="391" materialIds="16" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                  <Shape shapeId="75" name="cardboardBoxClosed03" translation="0.357117 -0.178108 0.294773" static="true" density="0.0001" nodeId="392" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                    <Shape shapeId="76" name="visual" translation="7.15256e-08 0 3.05176e-07" clipDistance="40" nodeId="393" materialIds="16" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                  <Shape shapeId="77" name="cardboardBoxClosed04" translation="-0.667969 -0.17762 -0.21825" static="true" density="0.0001" nodeId="394" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                    <Shape shapeId="78" name="visual" translation="-0.000494003 0 -0.000484028" clipDistance="40" nodeId="395" materialIds="16" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                  <Shape shapeId="79" name="cardboardBoxClosed05" translation="0.221603 -0.177048 -0.236252" static="true" density="0.0001" nodeId="396" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                    <Shape shapeId="80" name="visual" translation="0 0 -0.00056488" rotation="2.55483e-06 86.9893 2.55091e-06" clipDistance="50" nodeId="397" materialIds="16" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                  <Shape shapeId="81" name="cardboardBoxClosed06" translation="-0.428665 -0.155998 0.296028" static="true" density="0.0001" nodeId="398" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                    <Shape shapeId="82" name="visual" translation="-1.43051e-07 0 1.52588e-07" rotation="180 86.0471 180" clipDistance="70" nodeId="399" materialIds="16" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                  <Shape shapeId="83" name="cardboardBoxOpen01" translation="-0.598389 0.225258 0.262634" rotation="-6.70241 -64.0261 7.44743" static="true" density="0.0001" nodeId="400" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                    <Shape shapeId="84" name="visual" translation="0.0230242 0 0.000288916" clipDistance="40" nodeId="401" materialIds="16" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                  <Shape shapeId="85" name="cardboardBoxOpen02" translation="0.510056 0.0651169 -0.0159378" static="true" density="0.0001" nodeId="402" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                    <Shape shapeId="86" name="visual" translation="-0.00382675 0 -0.00100449" clipDistance="50" nodeId="403" materialIds="16" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                  <Shape shapeId="87" name="cardboardBoxOpen03" translation="0.42511 0.268867 0.120243" rotation="33.8426 -0 0" static="true" density="0.0001" nodeId="404" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                    <Shape shapeId="88" name="visual" translation="0.0216521 0 0.00195192" rotation="0 -86.6532 0.00482624" clipDistance="60" nodeId="405" materialIds="16" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </TransformGroup>
+              </TransformGroup>
+              <TransformGroup name="pallets_SPOT" lockedgroup="true" translation="5.8725 0 -7.68512" nodeId="406">
+                <Shape shapeId="64" name="euroPalletOld" lockedgroup="true" translation="0.0863972 0.582199 0.081665" rotation="-179.307 -0.862844 102.27" static="true" nodeId="407" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                  <Shape shapeId="65" name="decal" clipDistance="50" nodeId="408" materialIds="50" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                  <Shape shapeId="66" name="euroPalletOld_vis" clipDistance="80" nodeId="409" materialIds="29" castsShadows="true" receiveShadows="true"/>
+                </Shape>
+                <Shape shapeId="64" name="euroPalletOld" lockedgroup="true" translation="0.440838 0 1.13245" rotation="-180 -89.1858 180" static="true" nodeId="410" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                  <Shape shapeId="65" name="decal" clipDistance="50" nodeId="411" materialIds="50" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                  <Shape shapeId="66" name="euroPalletOld_vis" clipDistance="80" nodeId="412" materialIds="29" castsShadows="true" receiveShadows="true"/>
+                </Shape>
+              </TransformGroup>
+              <Shape shapeId="44" name="gabageContainerUS02" lockedgroup="true" translation="0.270785 7.62939e-06 9.50165" rotation="-9.59866e-06 -4.268 -1.00739e-05" clipDistance="100" nodeId="413" materialIds="30" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="45" name="decal" clipDistance="100" nodeId="414" materialIds="53" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                <Shape shapeId="46" name="door01" translation="0 1.72619 -0.155991" clipDistance="100" nodeId="415" materialIds="30" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="47" name="door02" translation="0 1.72619 -0.155991" clipDistance="100" nodeId="416" materialIds="30" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="48" name="col" visibility="false" static="true" nodeId="417" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              </Shape>
+              <Shape shapeId="37" name="gabageContainerUS01" lockedgroup="true" translation="-1.98315 7.62939e-06 9.31537" rotation="-3.98207e-07 -0.872999 -3.49602e-07" clipDistance="100" nodeId="418" materialIds="30" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="38" name="decal" translation="0 -0.00552211 -4.44089e-18" clipDistance="100" nodeId="419" materialIds="53" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                <Shape shapeId="39" name="door01" translation="0 1.44736 -0.561524" clipDistance="100" nodeId="420" materialIds="30" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="40" name="door02" translation="0 1.44736 -0.561524" clipDistance="100" nodeId="421" materialIds="30" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="41" name="gabageContainerWheel01" translation="-0.75 0.25 -0.656774" clipDistance="100" nodeId="422" materialIds="30" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="41" name="gabageContainerWheel02" translation="-0.75 0.25 0.468226" clipDistance="100" nodeId="423" materialIds="30" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="42" name="gabageContainerWheel03" translation="0.75 0.25 0.468226" clipDistance="100" nodeId="424" materialIds="30" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="42" name="gabageContainerWheel04" translation="0.75 0.25 -0.656774" clipDistance="100" nodeId="425" materialIds="30" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="43" name="col" translation="0 0 -0.0317745" visibility="false" static="true" nodeId="426" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+              </Shape>
+              <Shape shapeId="89" name="nail" lockedgroup="true" translation="-26.1986 1.99582 12.9996" rotation="-4.28424e-13 9.06702e-14 -101.95" scale="0.65 0.65 0.65" clipDistance="20" nodeId="427" materialIds="63" castsShadows="true" receiveShadows="true"/>
+              <TransformGroup name="timeSpring" translation="-3.43126 0 -10.2191" nodeId="428" weatherRequiredMask="128">
+                <Shape shapeId="90" name="palletTruck" lockedgroup="true" rotation="-180 -42.3103 -180" clipDistance="100" nodeId="429" materialIds="49" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="91" name="col" translation="0 0 0.386244" visibility="false" static="true" density="0.0001" nodeId="430" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                </Shape>
+                <TransformGroup name="paintSpot02_PREFAB" lockedgroup="true" translation="7.85808 0 0.472656" rotation="-5.35657e-21 -86.7009 2.73153e-05" nodeId="431">
+                  <TransformGroup name="paintBucket" lockedgroup="true" translation="0.117 -0.0343933 -0.702" rotation="4.7394e-23 0 0" nodeId="432">
+                    <Shape shapeId="92" name="paintBucket" lockedgroup="true" translation="0 -7.62939e-06 0" rotation="4.52669e-16 2.96862e-07 -3.20815e-14" dynamic="true" nodeId="433" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                      <Shape shapeId="93" name="paintBucket_vis" translation="2.94245e-08 0 1.52588e-07" clipDistance="30" nodeId="434" materialIds="48" castsShadows="true" receiveShadows="true"/>
+                    </Shape>
+                    <Shape shapeId="94" name="paintWoodPainted" lockedgroup="true" translation="-0.0780792 0.367667 0.0284273" rotation="4.53681e-16 -3.84296 0" scale="1 1.063 1" dynamic="true" clipDistance="20" nodeId="435" materialIds="48" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="95" name="paintStrokePainted" lockedgroup="true" translation="0.0447194 0.375353 0.0056499" rotation="4.52669e-16 2.96862e-07 0" dynamic="true" nodeId="436" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                      <Shape shapeId="96" name="paintStrokePainted_vis" clipDistance="20" nodeId="437" materialIds="48" castsShadows="true" receiveShadows="true"/>
+                    </Shape>
+                  </TransformGroup>
+                  <Shape shapeId="97" name="ladderFoldable02" lockedgroup="true" translation="-0.273775 -0.043 -0.301995" rotation="180 -58.157 180" dynamic="true" density="0.25" nodeId="438" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                    <Shape shapeId="98" name="ladderFoldable02_vis" translation="0 0 0.000341816" clipDistance="40" nodeId="439" materialIds="44" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                  <TransformGroup name="paintBucketEmpty_PREFAB" lockedgroup="true" translation="0.103769 -5.35452e-07 -0.0961225" rotation="1.41527e-13 -2.96862e-07 -2.73153e-05" nodeId="440"/>
+                </TransformGroup>
+                <TransformGroup name="ladderFoldable02_PREFAB" lockedgroup="true" translation="-23.1917 7.62939e-06 23.0306" rotation="0 -4.37897e-13 0" nodeId="441">
+                  <TransformGroup name="ladderFoldable02_ShapCollision" translation="-0.000325203 0 -0.00012207" rotation="2.92581e-34 4.37897e-13 0" nodeId="442">
+                    <Shape shapeId="98" name="ladderFoldable02_vis" rotation="180 -71.836 180" static="true" clipDistance="40" nodeId="443" materialIds="44" castsShadows="true" receiveShadows="true"/>
+                  </TransformGroup>
+                  <Shape shapeId="99" name="hammer01" lockedgroup="true" translation="-0.1406 1.0254 -0.140015" rotation="179.206 48.3513 179.775" dynamic="true" density="0.75" nodeId="444" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                    <Shape shapeId="100" name="hammer01_vis" clipDistance="20" nodeId="445" materialIds="38" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </TransformGroup>
+              </TransformGroup>
+              <TransformGroup name="timeSummer" translation="-3.43126 0 -10.2191" nodeId="446" weatherRequiredMask="256">
+                <Shape shapeId="90" name="palletTruck" lockedgroup="true" rotation="-180 -42.3103 -180" clipDistance="100" nodeId="447" materialIds="49" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="91" name="col" translation="0 0 0.386244" visibility="false" static="true" density="0.0001" nodeId="448" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                </Shape>
+                <TransformGroup name="paintSpot02_PREFAB" lockedgroup="true" translation="7.85808 0 0.472656" rotation="-5.35657e-21 -86.7009 2.73153e-05" nodeId="449">
+                  <TransformGroup name="paintBucket" lockedgroup="true" translation="0.117 -0.0343933 -0.702" rotation="4.7394e-23 0 0" nodeId="450">
+                    <Shape shapeId="92" name="paintBucket" lockedgroup="true" translation="0 -7.62939e-06 0" rotation="4.52669e-16 2.96862e-07 -3.20815e-14" dynamic="true" nodeId="451" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                      <Shape shapeId="93" name="paintBucket_vis" translation="2.94245e-08 0 1.52588e-07" clipDistance="30" nodeId="452" materialIds="48" castsShadows="true" receiveShadows="true"/>
+                    </Shape>
+                    <Shape shapeId="94" name="paintWoodPainted" lockedgroup="true" translation="-0.0780792 0.367667 0.0284273" rotation="4.53681e-16 -3.84296 0" scale="1 1.063 1" dynamic="true" clipDistance="20" nodeId="453" materialIds="48" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="95" name="paintStrokePainted" lockedgroup="true" translation="0.0447194 0.375353 0.0056499" rotation="4.52669e-16 2.96862e-07 0" dynamic="true" nodeId="454" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                      <Shape shapeId="96" name="paintStrokePainted_vis" clipDistance="20" nodeId="455" materialIds="48" castsShadows="true" receiveShadows="true"/>
+                    </Shape>
+                  </TransformGroup>
+                  <Shape shapeId="97" name="ladderFoldable02" lockedgroup="true" translation="-0.273775 -0.043 -0.301995" rotation="180 -58.157 180" dynamic="true" density="0.25" nodeId="456" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                    <Shape shapeId="98" name="ladderFoldable02_vis" translation="0 0 0.000341816" clipDistance="40" nodeId="457" materialIds="44" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                  <TransformGroup name="paintBucketEmpty_PREFAB" lockedgroup="true" translation="0.103769 -5.35452e-07 -0.0961225" rotation="1.41527e-13 -2.96862e-07 -2.73153e-05" nodeId="458"/>
+                </TransformGroup>
+                <TransformGroup name="ladderFoldable02_PREFAB" lockedgroup="true" translation="-23.1917 7.62939e-06 23.0306" rotation="0 -4.37897e-13 0" nodeId="459">
+                  <TransformGroup name="ladderFoldable02_ShapCollision" translation="-0.000325203 0 -0.00012207" rotation="2.92581e-34 4.37897e-13 0" nodeId="460">
+                    <Shape shapeId="98" name="ladderFoldable02_vis" rotation="180 -71.836 180" static="true" clipDistance="40" nodeId="461" materialIds="44" castsShadows="true" receiveShadows="true"/>
+                  </TransformGroup>
+                  <Shape shapeId="99" name="hammer01" lockedgroup="true" translation="-0.1406 1.0254 -0.140015" rotation="179.206 48.3513 179.775" dynamic="true" density="0.75" nodeId="462" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                    <Shape shapeId="100" name="hammer01_vis" clipDistance="20" nodeId="463" materialIds="38" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </TransformGroup>
+              </TransformGroup>
+              <TransformGroup name="timeAutumn" translation="-3.43126 0 -10.2191" nodeId="464" weatherRequiredMask="512">
+                <Shape shapeId="90" name="palletTruck" lockedgroup="true" rotation="-180 -42.3103 -180" clipDistance="100" nodeId="465" materialIds="49" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="91" name="col" translation="0 0 0.386244" visibility="false" static="true" density="0.0001" nodeId="466" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                </Shape>
+                <TransformGroup name="paintSpot02_PREFAB" lockedgroup="true" translation="7.85808 0 0.472656" rotation="-5.35657e-21 -86.7009 2.73153e-05" nodeId="467">
+                  <TransformGroup name="paintBucket" lockedgroup="true" translation="0.117 -0.0343933 -0.702" rotation="4.7394e-23 0 0" nodeId="468">
+                    <Shape shapeId="92" name="paintBucket" lockedgroup="true" translation="0 -7.62939e-06 0" rotation="4.52669e-16 2.96862e-07 -3.20815e-14" dynamic="true" nodeId="469" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                      <Shape shapeId="93" name="paintBucket_vis" translation="2.94245e-08 0 1.52588e-07" clipDistance="30" nodeId="470" materialIds="48" castsShadows="true" receiveShadows="true"/>
+                    </Shape>
+                    <Shape shapeId="94" name="paintWoodPainted" lockedgroup="true" translation="-0.0780792 0.367667 0.0284273" rotation="4.53681e-16 -3.84296 0" scale="1 1.063 1" dynamic="true" clipDistance="20" nodeId="471" materialIds="48" castsShadows="true" receiveShadows="true"/>
+                    <Shape shapeId="95" name="paintStrokePainted" lockedgroup="true" translation="0.0447194 0.375353 0.0056499" rotation="4.52669e-16 2.96862e-07 0" dynamic="true" nodeId="472" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                      <Shape shapeId="96" name="paintStrokePainted_vis" clipDistance="20" nodeId="473" materialIds="48" castsShadows="true" receiveShadows="true"/>
+                    </Shape>
+                  </TransformGroup>
+                  <Shape shapeId="97" name="ladderFoldable02" lockedgroup="true" translation="-0.273775 -0.043 -0.301995" rotation="180 -58.157 180" dynamic="true" density="0.25" nodeId="474" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                    <Shape shapeId="98" name="ladderFoldable02_vis" translation="0 0 0.000341816" clipDistance="40" nodeId="475" materialIds="44" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                  <TransformGroup name="paintBucketEmpty_PREFAB" lockedgroup="true" translation="0.103769 -5.35452e-07 -0.0961225" rotation="1.41527e-13 -2.96862e-07 -2.73153e-05" nodeId="476"/>
+                </TransformGroup>
+                <TransformGroup name="ladderFoldable02_PREFAB" lockedgroup="true" translation="-23.1917 7.62939e-06 23.0306" rotation="0 -4.37897e-13 0" nodeId="477">
+                  <TransformGroup name="ladderFoldable02_ShapCollision" translation="-0.000325203 0 -0.00012207" rotation="2.92581e-34 4.37897e-13 0" nodeId="478">
+                    <Shape shapeId="98" name="ladderFoldable02_vis" rotation="180 -71.836 180" static="true" clipDistance="40" nodeId="479" materialIds="44" castsShadows="true" receiveShadows="true"/>
+                  </TransformGroup>
+                  <Shape shapeId="99" name="hammer01" lockedgroup="true" translation="-0.1406 1.0254 -0.140015" rotation="179.206 48.3513 179.775" dynamic="true" density="0.75" nodeId="480" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                    <Shape shapeId="100" name="hammer01_vis" clipDistance="20" nodeId="481" materialIds="38" castsShadows="true" receiveShadows="true"/>
+                  </Shape>
+                </TransformGroup>
+              </TransformGroup>
+              <TransformGroup name="timeWinter" translation="-28.4741 0 13.6725" nodeId="482" weatherRequiredMask="1024">
+                <Shape shapeId="101" name="snowman02_vis" translation="1.91604 -0.0580826 -0.730896" rotation="-32.9973 65.7472 -19.1988" scale="1.325 1.325 1.325" clipDistance="90" nodeId="483" materialIds="60" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="102" name="snowman01_vis" translation="33.3052 9.92236e-08 -23.6537" rotation="-180 1.64537 -180" scale="1.125 1.125 1.125" clipDistance="120" nodeId="484" materialIds="59" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="103" name="snowman03_vis" translation="25.2474 0 -23.6002" rotation="173.711 -33.6277 180" scale="1.125 1.125 1.125" clipDistance="90" nodeId="485" materialIds="61" castsShadows="true" receiveShadows="true"/>
+              </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="bioMassPowerPlantShack01_PLACE" translation="-8.77039 8.29015e-06 -22.2091" rotation="180 -4.37897e-13 180" nodeId="486">
+              <TransformGroup name="bioMassPowerPlantShack01" rotation="-4.07111e-13 -90 0" scale="1.5 1.5 1.5" nodeId="487" lodDistance="0 100">
+                <TransformGroup name="LOD0" nodeId="488">
+                  <Shape shapeId="50" name="bioMassPowerPlantShack01" clipDistance="400" nodeId="489" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="51" name="windows" clipDistance="400" nodeId="490" materialIds="45" castsShadows="true" receiveShadows="true"/>
+                  <TransformGroup name="decals" nodeId="491">
+                    <Shape shapeId="52" name="decals_building" translation="-0.0179355 2.02043 3.15622" rotation="0 90 0" clipDistance="120" nodeId="492" materialIds="12" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                  </TransformGroup>
+                  <TransformGroup name="winter" nodeId="493">
+                    <Shape shapeId="53" name="snow" clipDistance="100" nodeId="494" materialIds="57" castsShadows="true" receiveShadows="true" weatherRequiredMask="1024"/>
+                  </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="LOD1" translation="-162 0 40" nodeId="495">
+                  <Shape shapeId="54" name="bioMassPowerPlantShack01_LOD" translation="162 1.74846e-06 -40" static="true" clipDistance="400" nodeId="496" materialIds="11" castsShadows="true" receiveShadows="true"/>
+                </TransformGroup>
+                <Shape shapeId="55" name="occluderMesh" translation="0 1.75476e-06 0" clipDistance="250" nodeId="497" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true"/>
+              </TransformGroup>
+              <TransformGroup name="attachments" translation="0 0 -2.48613e-34" rotation="0 -90 0" nodeId="498">
+                <Shape shapeId="104" name="electricalMeterGround01" lockedgroup="true" translation="-6.17363 -0.0470086 7.49" rotation="0.00027835 -88.9998 -0.000286958" clipDistance="90" nodeId="499" materialIds="24" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="105" name="electricalMeterGroundUSGlass" clipDistance="20" nodeId="500" materialIds="19" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="106" name="decal" clipDistance="10" nodeId="501" materialIds="9" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                  <Shape shapeId="107" name="electricalMeterGround01" clipDistance="40" nodeId="502" materialIds="24" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="108" name="electricalMeterGroundPole02" translation="-0.125 0 0.0625" clipDistance="90" nodeId="503" materialIds="24" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="109" name="electricalMeterGroundPole03" translation="0 1.0625 0.0625" clipDistance="50" nodeId="504" materialIds="24" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="110" name="electricalMeterGroundPole04" translation="0.0625 -7.10543e-17 0.0624117" clipDistance="70" nodeId="505" materialIds="24" castsShadows="true" receiveShadows="true"/>
+                </Shape>
+                <Shape shapeId="22" name="electricBox" lockedgroup="true" translation="-6.55718 -7.62939e-06 -5.67903" rotation="8.65142e-06 -90 0" static="true" nodeId="506" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                  <Shape shapeId="23" name="electricBoxVis" translation="0 -5.67631e-08 0" clipDistance="100" nodeId="507" materialIds="25" castsShadows="true" receiveShadows="true"/>
+                </Shape>
+                <Shape shapeId="111" name="industrialWallLight" lockedgroup="true" translation="-6.17004 2.13049 6.90432" rotation="90.0001 -90 -90.0002" static="true" density="0.0001" nodeId="508" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                  <Shape shapeId="112" name="industrialWallLight_vis" clipDistance="200" nodeId="509" materialIds="41" receiveShadows="true"/>
+                  <Shape shapeId="113" name="glass" translation="0 0 0.0144467" clipDistance="40" nodeId="510" materialIds="67" castsShadows="true" receiveShadows="true"/>
+                  <TransformGroup name="illum" nodeId="511">
+                    <TransformGroup name="selfIllum" nodeId="512" weatherRequiredMask="64" visibleShaderParameter="3">
+                      <Shape shapeId="114" name="industrialWallLightInnerLit" clipDistance="200" nodeId="513" materialIds="42" castsShadows="true" receiveShadows="true" weatherRequiredMask="64" visibleShaderParameter="0.1"/>
+                      <Shape shapeId="115" name="bulbIllum" translation="-0.00176918 -0.0420775 0.0480477" clipDistance="200" nodeId="514" materialIds="42" receiveShadows="true" weatherRequiredMask="64" visibleShaderParameter="5"/>
+                      <Shape shapeId="116" name="glass" clipDistance="100" nodeId="515" materialIds="67" castsShadows="true" receiveShadows="true" weatherRequiredMask="64" visibleShaderParameter="10"/>
+                    </TransformGroup>
+                    <TransformGroup name="realLights" nodeId="516" weatherRequiredMask="64">
+                      <Light name="spotLight" translation="0 0 0.05" rotation="-180 0 0" clipDistance="200" nodeId="517" type="spot" color="0.7 0.5 0.3" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.001" depthMapResolution="512" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" range="8" coneAngle="179" dropOff="0" weatherRequiredMask="64" renderInvisible="true"/>
+                      <Light name="pointLight" translation="0 0 0.0499153" rotation="-180 0 0" clipDistance="200" nodeId="518" type="point" color="0.7 0.5 0.3" emitDiffuse="true" emitSpecular="true" range="3" weatherRequiredMask="64" renderInvisible="true"/>
+                    </TransformGroup>
+                  </TransformGroup>
+                </Shape>
+                <Shape shapeId="56" name="gasmeterLargeUS" lockedgroup="true" translation="-7.60924 -0.0948105 -7.1" rotation="3.23297e-05 1.36604e-05 1.32654e-19" clipDistance="100" nodeId="519" materialIds="32" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="57" name="decal" static="true" density="0.0001" clipDistance="20" nodeId="520" materialIds="52" castsShadows="true" receiveShadows="true" nonRenderable="true" decalLayer="1"/>
+                  <Shape shapeId="58" name="col" translation="-0.0361054 1.21631 0.037226" visibility="false" static="true" density="0.0001" nodeId="521" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                </Shape>
+                <Shape shapeId="17" name="electricityBoxSeparate" lockedgroup="true" translation="-5.119 0 1.32592" rotation="180 -3.73387e-05 -180" scale="1.5 1.5 1.5" static="true" density="0.0001" nodeId="522" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                  <Shape shapeId="18" name="electricityBoxSeparateVis" clipDistance="170" nodeId="523" materialIds="27" castsShadows="true" receiveShadows="true"/>
+                </Shape>
+                <Shape shapeId="117" name="airConditionRoof" lockedgroup="true" translation="-2.62737 9.12471 2.9024" rotation="-180 -2.36783e-05 -180" clipDistance="120" nodeId="524" materialIds="7" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="118" name="decals" clipDistance="50" nodeId="525" materialIds="51" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                  <Shape shapeId="119" name="col" translation="0.0712576 0.846198 -0.44387" visibility="false" static="true" nodeId="526" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                </Shape>
+                <Shape shapeId="33" name="doorFrame" lockedgroup="true" translation="-6.25171 0.11953 5.63849" rotation="-2.36783e-05 -0 0" clipDistance="300" nodeId="527" materialIds="10" castsShadows="true" receiveShadows="true">
+                  <Shape shapeId="34" name="door" clipDistance="300" nodeId="528" materialIds="22" castsShadows="true" receiveShadows="true"/>
+                </Shape>
+                <Shape shapeId="111" name="industrialWallLight" lockedgroup="true" translation="-14.7833 1.92958 -9.154" rotation="-5.07042e-06 0 -0.000108505" static="true" density="0.0001" nodeId="529" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+                  <Shape shapeId="112" name="industrialWallLight_vis" clipDistance="200" nodeId="530" materialIds="41" receiveShadows="true"/>
+                  <Shape shapeId="113" name="glass" translation="0 0 0.0144467" clipDistance="40" nodeId="531" materialIds="67" castsShadows="true" receiveShadows="true"/>
+                  <TransformGroup name="illum" nodeId="532">
+                    <TransformGroup name="selfIllum" nodeId="533" weatherRequiredMask="64" visibleShaderParameter="3">
+                      <Shape shapeId="114" name="industrialWallLightInnerLit" clipDistance="200" nodeId="534" materialIds="42" castsShadows="true" receiveShadows="true" weatherRequiredMask="64" visibleShaderParameter="0.1"/>
+                      <Shape shapeId="115" name="bulbIllum" translation="-0.00176918 -0.0420775 0.0480477" clipDistance="200" nodeId="535" materialIds="42" receiveShadows="true" weatherRequiredMask="64" visibleShaderParameter="5"/>
+                      <Shape shapeId="116" name="glass" clipDistance="100" nodeId="536" materialIds="67" castsShadows="true" receiveShadows="true" weatherRequiredMask="64" visibleShaderParameter="10"/>
+                    </TransformGroup>
+                    <TransformGroup name="realLights" nodeId="537" weatherRequiredMask="64">
+                      <Light name="spotLight" translation="0 0 0.05" rotation="-180 0 0" clipDistance="200" nodeId="538" type="spot" color="0.7 0.5 0.3" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.001" depthMapResolution="512" shadowFarDistance="80" shadowExtrusionDistance="200" shadowPerspective="false" range="8" coneAngle="179" dropOff="0" weatherRequiredMask="64" renderInvisible="true"/>
+                      <Light name="pointLight" translation="0 0 0.0499153" rotation="-180 0 0" clipDistance="200" nodeId="539" type="point" color="0.7 0.5 0.3" emitDiffuse="true" emitSpecular="true" range="3" weatherRequiredMask="64" renderInvisible="true"/>
+                    </TransformGroup>
+                  </TransformGroup>
+                </Shape>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="transform" translation="-10.2352 8.8816 1.78842" nodeId="540">
+            <TransformGroup name="grainFloorMillStorage" translation="16.5655 -9.04786 10.9891" rotation="1.61332e-06 0 -2.49405e-06" nodeId="541" lodDistance="0 120">
+              <TransformGroup name="LOD0" nodeId="542">
+                <Shape shapeId="120" name="grainFloorMillStorage" clipDistance="600" nodeId="543" materialIds="35" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="121" name="windows" clipDistance="600" nodeId="544" materialIds="43" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="122" name="doors" translation="-3.63798e-14 0 0" clipDistance="600" nodeId="545" materialIds="23" castsShadows="true" receiveShadows="true"/>
+                <TransformGroup name="interior" translation="0 0 8.39233e-07" nodeId="546">
+                  <Shape shapeId="123" name="decalsRust" clipDistance="90" nodeId="547" materialIds="13" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                  <TransformGroup name="llum" translation="0 0 -3.55271e-15" nodeId="548">
+                    <TransformGroup name="selfIllum" translation="0 0 1.98952e-15" nodeId="549">
+                      <Shape shapeId="124" name="interiorDay" clipDistance="300" nodeId="550" materialIds="28" castsShadows="true" receiveShadows="true" weatherRequiredMask="64" renderInvisible="true"/>
+                    </TransformGroup>
+                    <TransformGroup name="realLights" translation="-0.35572 0.0683558 -0.167155" nodeId="551" weatherRequiredMask="64">
+                      <Light name="pointLight2" translation="7.47135 2.69113 -5.57042" clipDistance="75" nodeId="552" type="point" color="0.03 0.03 0.02" emitDiffuse="true" emitSpecular="true" range="5"/>
+                      <Light name="pointLight3" translation="7.62396 2.67417 2.3566" clipDistance="75" nodeId="553" type="point" color="0.03 0.03 0.02" emitDiffuse="true" emitSpecular="true" range="5"/>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="branding" translation="-0.010542 1.88961 -7.8323" nodeId="554">
+                  <TransformGroup name="decals" translation="0 -2.84217e-16 0" nodeId="555">
+                    <Shape shapeId="125" name="logoDecal01" translation="1.99983 -2.84217e-16 2.84217e-16" rotation="0 -90 0" clipDistance="120" nodeId="556" materialIds="37" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                    <Shape shapeId="125" name="logoDecal02" translation="-1.99983 -2.84217e-16 -2.84217e-16" rotation="0 -90 0" clipDistance="120" nodeId="557" materialIds="37" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                  </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="winter" nodeId="558">
+                  <Shape shapeId="126" name="snow" clipDistance="200" nodeId="559" materialIds="58" castsShadows="true" receiveShadows="true" weatherRequiredMask="1024"/>
+                  <Shape shapeId="127" name="icicles" translation="-0.516376 4.3051 0.0245983" clipDistance="90" nodeId="560" materialIds="39" castsShadows="true" receiveShadows="true" weatherRequiredMask="1024"/>
+                </TransformGroup>
+              </TransformGroup>
+              <TransformGroup name="LOD1" nodeId="561">
+                <Shape shapeId="128" name="grainFloorMillStorage" translation="0 0 8.39233e-07" static="true" clipDistance="500" nodeId="562" materialIds="35" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="129" name="windows_LOD" static="true" clipDistance="200" nodeId="563" materialIds="69" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="130" name="doors_LOD" static="true" clipDistance="250" nodeId="564" materialIds="23" castsShadows="true" receiveShadows="true"/>
+                <TransformGroup name="interior" translation="0 0 8.39233e-07" nodeId="565">
+                  <TransformGroup name="llum" nodeId="566">
+                    <TransformGroup name="selfIllum" translation="0 0 -4.54747e-15" nodeId="567">
+                      <Shape shapeId="131" name="interiorDay" translation="0 0 -8.39233e-07" clipDistance="300" nodeId="568" materialIds="28" castsShadows="true" receiveShadows="true" weatherRequiredMask="64" renderInvisible="true"/>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+              <Shape shapeId="132" name="occluderMesh" translation="0 0 8.39233e-07" clipDistance="250" nodeId="569" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true"/>
+            </TransformGroup>
+            <TransformGroup name="grainFloorMillSiloLongLarge" translation="-8.82166 -9.04784 -3.75419" rotation="1.61332e-06 0 -2.49405e-06" nodeId="570" lodDistance="0 100">
+              <Shape shapeId="133" name="LOD0" clipDistance="600" nodeId="571" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="134" name="LOD1" static="true" clipDistance="600" nodeId="572" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="135" name="occluderMesh" translation="9.09495e-15 0 0" clipDistance="250" nodeId="573" materialIds="" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true"/>
+            </TransformGroup>
+            <TransformGroup name="grainFloorMillShed" translation="6.56616 -9.04786 -2.01105" rotation="1.61332e-06 -0 -2.49405e-06" nodeId="574" lodDistance="0 100">
+              <TransformGroup name="LOD0" nodeId="575">
+                <Shape shapeId="136" name="grainFloorMillShed" clipDistance="400" nodeId="576" materialIds="33" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="137" name="windows" clipDistance="400" nodeId="577" materialIds="43" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="138" name="doors" clipDistance="400" nodeId="578" materialIds="23" castsShadows="true" receiveShadows="true"/>
+                <TransformGroup name="interior" nodeId="579">
+                  <TransformGroup name="llum" nodeId="580">
+                    <TransformGroup name="selfIllum" nodeId="581">
+                      <Shape shapeId="139" name="interiorDay" clipDistance="300" nodeId="582" materialIds="28" castsShadows="true" receiveShadows="true" weatherRequiredMask="64" renderInvisible="true"/>
+                    </TransformGroup>
+                    <TransformGroup name="realLights" nodeId="583" weatherRequiredMask="64">
+                      <Light name="pointLight2" translation="3.93018 1.78926 -2.7308" clipDistance="75" nodeId="584" type="point" color="0.03 0.03 0.02" emitDiffuse="true" emitSpecular="true" range="5"/>
+                      <Light name="pointLight3" translation="1.31689 1.83855 -4.90443" clipDistance="75" nodeId="585" type="point" color="0.03 0.03 0.02" emitDiffuse="true" emitSpecular="true" range="5"/>
+                    </TransformGroup>
+                  </TransformGroup>
+                  <Shape shapeId="140" name="curtains" clipDistance="80" nodeId="586" materialIds="68" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="141" name="decalsRust" clipDistance="90" nodeId="587" materialIds="13" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                </TransformGroup>
+                <TransformGroup name="winter" nodeId="588">
+                  <Shape shapeId="142" name="snow" clipDistance="200" nodeId="589" materialIds="58" castsShadows="true" receiveShadows="true" weatherRequiredMask="1024"/>
+                  <Shape shapeId="143" name="icicles" rotation="0 -360 0" clipDistance="90" nodeId="590" materialIds="39" castsShadows="true" receiveShadows="true" weatherRequiredMask="1024"/>
+                </TransformGroup>
+              </TransformGroup>
+              <TransformGroup name="LOD1" translation="0 8.74228e-07 2.04636e-14" nodeId="591">
+                <Shape shapeId="144" name="grainFloorMillShed_LOD" translation="0 -8.74228e-07 -2.04281e-14" static="true" clipDistance="300" nodeId="592" materialIds="33" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="145" name="windows" static="true" clipDistance="250" nodeId="593" materialIds="69" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="146" name="doors_LOD" static="true" clipDistance="250" nodeId="594" materialIds="23" castsShadows="true" receiveShadows="true"/>
+                <TransformGroup name="interior" translation="0 -8.74228e-07 -2.04281e-14" nodeId="595">
+                  <TransformGroup name="llum" translation="0 2.71051e-22 -2.27374e-15" nodeId="596">
+                    <TransformGroup name="selfIllum" translation="0 2.84217e-16 0" nodeId="597">
+                      <Shape shapeId="147" name="interiorDay" clipDistance="300" nodeId="598" materialIds="28" castsShadows="true" receiveShadows="true" weatherRequiredMask="64" renderInvisible="true"/>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+              <Shape shapeId="148" name="occluderMesh" clipDistance="200" nodeId="599" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true"/>
+            </TransformGroup>
+            <TransformGroup name="grainFloorMill" translation="-2.43475 -9.04784 -6.01025" rotation="1.61332e-06 -0 -2.49405e-06" nodeId="600" lodDistance="0 120">
+              <TransformGroup name="LOD0" nodeId="601">
+                <Shape shapeId="149" name="grainFloorMill" clipDistance="200" nodeId="602" materialIds="35" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="150" name="windows" clipDistance="700" nodeId="603" materialIds="69" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="151" name="doors" clipDistance="700" nodeId="604" materialIds="23" castsShadows="true" receiveShadows="true"/>
+                <TransformGroup name="interior" nodeId="605">
+                  <TransformGroup name="llum" translation="0 0 8.39233e-07" nodeId="606">
+                    <TransformGroup name="selfIllum" nodeId="607">
+                      <Shape shapeId="152" name="interiorDay" clipDistance="300" nodeId="608" materialIds="28" castsShadows="true" receiveShadows="true" weatherRequiredMask="64" renderInvisible="true"/>
+                    </TransformGroup>
+                    <TransformGroup name="realLights" nodeId="609" weatherRequiredMask="64">
+                      <Light name="pointLight2" translation="-3.60152 1.92829 -7.92883" clipDistance="75" nodeId="610" type="point" color="0.03 0.03 0.02" emitDiffuse="true" emitSpecular="true" range="5"/>
+                      <Light name="pointLight3" translation="-6.53215 1.92035 -8" clipDistance="75" nodeId="611" type="point" color="0.03 0.03 0.02" emitDiffuse="true" emitSpecular="true" range="5"/>
+                    </TransformGroup>
+                  </TransformGroup>
+                  <Shape shapeId="153" name="curtains" clipDistance="80" nodeId="612" materialIds="68" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="154" name="decalsGrunge" clipDistance="90" nodeId="613" materialIds="12" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                  <Shape shapeId="155" name="decalsRust" clipDistance="90" nodeId="614" materialIds="13" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                </TransformGroup>
+                <TransformGroup name="branding" nodeId="615">
+                  <Shape shapeId="156" name="logo01" translation="-13.0437 9.71746 4.48283" scale="1 1.5 2" clipDistance="200" nodeId="616" materialIds="36" castsShadows="true" receiveShadows="true"/>
+                  <TransformGroup name="decals" translation="0 0 7.10543e-17" nodeId="617">
+                    <Shape shapeId="157" name="logoDecal01" translation="-13.8464 1.88969 2.02533" clipDistance="120" nodeId="618" materialIds="37" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                    <Shape shapeId="158" name="logoDecal02" translation="-13.8464 1.88961 5.82617" clipDistance="120" nodeId="619" materialIds="37" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                    <Shape shapeId="159" name="logoDecal03" translation="1.00179 1.88961 -7.85884" rotation="0 -90 0" clipDistance="120" nodeId="620" materialIds="37" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                  </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="winter" nodeId="621">
+                  <Shape shapeId="160" name="snow" clipDistance="200" nodeId="622" materialIds="58" castsShadows="true" receiveShadows="true" weatherRequiredMask="1024"/>
+                  <Shape shapeId="161" name="icicles" translation="-14.1911 3.20969 3.66303" rotation="0 -180 0" clipDistance="50" nodeId="623" materialIds="39" castsShadows="true" receiveShadows="true" weatherRequiredMask="1024"/>
+                </TransformGroup>
+              </TransformGroup>
+              <TransformGroup name="LOD1" nodeId="624">
+                <Shape shapeId="162" name="grainFloorMill" static="true" clipDistance="500" nodeId="625" materialIds="35" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="163" name="windows_LOD" static="true" clipDistance="200" nodeId="626" materialIds="69" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="164" name="doors_LOD" static="true" clipDistance="200" nodeId="627" materialIds="23" castsShadows="true" receiveShadows="true"/>
+                <TransformGroup name="interior" nodeId="628">
+                  <TransformGroup name="llum" translation="0 0 8.39233e-07" nodeId="629">
+                    <TransformGroup name="selfIllum" translation="0 0 -8.39233e-07" nodeId="630">
+                      <Shape shapeId="165" name="interiorDay_LOD" translation="0 5.68434e-16 -2.27374e-15" clipDistance="300" nodeId="631" materialIds="28" castsShadows="true" receiveShadows="true" weatherRequiredMask="64" renderInvisible="true"/>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+              <Shape shapeId="166" name="occluderMesh" clipDistance="250" nodeId="632" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true"/>
+            </TransformGroup>
+            <TransformGroup name="grainFloorMillSiloLongLarge" translation="0.179382 -9.04785 -3.76019" rotation="1.61332e-06 0 -2.49405e-06" nodeId="633" lodDistance="0 100">
+              <Shape shapeId="133" name="LOD0" clipDistance="600" nodeId="634" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="134" name="LOD1" static="true" clipDistance="600" nodeId="635" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="135" name="occluderMesh" translation="9.09495e-15 0 0" clipDistance="250" nodeId="636" materialIds="" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true"/>
+            </TransformGroup>
+            <TransformGroup name="grainFloorMillSiloLongLarge" translation="-8.82196 -9.04784 -9.75574" rotation="180 0 180" nodeId="637" lodDistance="0 100">
+              <Shape shapeId="133" name="LOD0" clipDistance="600" nodeId="638" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="134" name="LOD1" static="true" clipDistance="600" nodeId="639" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="135" name="occluderMesh" translation="9.09495e-15 0 0" clipDistance="250" nodeId="640" materialIds="" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true"/>
+            </TransformGroup>
+            <TransformGroup name="grainFloorMillSiloLongLarge" translation="-4.32599 -9.04824 -9.75391" rotation="180 -1.70755e-06 180" nodeId="641" lodDistance="0 100">
+              <Shape shapeId="133" name="LOD0" clipDistance="600" nodeId="642" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="134" name="LOD1" static="true" clipDistance="600" nodeId="643" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="135" name="occluderMesh" translation="9.09495e-15 0 0" clipDistance="250" nodeId="644" materialIds="" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true"/>
+            </TransformGroup>
+            <TransformGroup name="grainFloorMillSiloLongLarge" translation="-14.8789 -9.04784 -11.1039" rotation="180 -1.70755e-06 180" nodeId="645" lodDistance="0 100">
+              <Shape shapeId="133" name="LOD0" clipDistance="600" nodeId="646" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="134" name="LOD1" static="true" clipDistance="600" nodeId="647" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="135" name="occluderMesh" translation="9.09495e-15 0 0" clipDistance="250" nodeId="648" materialIds="" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true"/>
+            </TransformGroup>
+            <TransformGroup name="grainFloorMillSiloLongLarge" translation="0.179199 -9.04785 -9.75635" rotation="180 -1.70755e-06 180" nodeId="649" lodDistance="0 100">
+              <Shape shapeId="133" name="LOD0" clipDistance="600" nodeId="650" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="134" name="LOD1" static="true" clipDistance="600" nodeId="651" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="135" name="occluderMesh" translation="9.09495e-15 0 0" clipDistance="250" nodeId="652" materialIds="" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true"/>
+            </TransformGroup>
+            <TransformGroup name="grainFloorMillSiloLoadingFrame" translation="-2.43481 -9.00385 -17.0103" rotation="6.62228e-06 90 0" nodeId="653" lodDistance="0 100">
+              <TransformGroup name="LOD0" nodeId="654">
+                <Shape shapeId="167" name="grainFloorMillSiloLoadFrame" clipDistance="700" nodeId="655" materialIds="34" castsShadows="true" receiveShadows="true"/>
+                <TransformGroup name="winter" nodeId="656">
+                  <Shape shapeId="168" name="icicles" clipDistance="90" nodeId="657" materialIds="39" castsShadows="true" receiveShadows="true" weatherRequiredMask="1024"/>
+                </TransformGroup>
+              </TransformGroup>
+              <Shape shapeId="169" name="LOD1" static="true" clipDistance="400" nodeId="658" materialIds="34" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="grainFloorMillSiloLongSmall" translation="-14.4304 -8.92284 -8.013" rotation="1.61332e-06 -0 -2.49405e-06" nodeId="659" lodDistance="0 100">
+              <Shape shapeId="170" name="LOD0" translation="0 0 7.32422e-06" clipDistance="700" nodeId="660" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="171" name="LOD1" translation="0 -3.20152e-13 7.32422e-06" static="true" clipDistance="500" nodeId="661" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="172" name="occluderMesh" translation="9.09495e-15 -3.20152e-13 7.32422e-06" clipDistance="250" nodeId="662" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true"/>
+            </TransformGroup>
+            <TransformGroup name="grainFloorMillSiloLongLarge" translation="-4.32574 -9.04784 -3.48881" rotation="1.61332e-06 0 -2.49405e-06" nodeId="663" lodDistance="0 100">
+              <Shape shapeId="133" name="LOD0" clipDistance="600" nodeId="664" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="134" name="LOD1" static="true" clipDistance="600" nodeId="665" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="135" name="occluderMesh" translation="9.09495e-15 0 0" clipDistance="250" nodeId="666" materialIds="" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true"/>
+            </TransformGroup>
+            <TransformGroup name="grainFloorMillSiloLongLarge" translation="3.69698 -9.04785 -3.57594" rotation="1.61332e-06 0 -2.49405e-06" nodeId="667" lodDistance="0 100">
+              <Shape shapeId="133" name="LOD0" clipDistance="600" nodeId="668" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="134" name="LOD1" static="true" clipDistance="600" nodeId="669" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="135" name="occluderMesh" translation="9.09495e-15 0 0" clipDistance="250" nodeId="670" materialIds="" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true"/>
+            </TransformGroup>
+            <TransformGroup name="grainFloorMillSiloBase" lockedgroup="true" translation="-13.6339 -9.17284 4.466" rotation="6.25753e-06 -54 -1.16088e-05" static="true" nodeId="671">
+              <Shape shapeId="173" name="grainFloorMillSiloBase" translation="0.0026709 0 -1.15053e-07" clipDistance="100" nodeId="672" materialIds="33" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="grainFloorMillSiloBase" lockedgroup="true" translation="-15.049 -4.1094 -11.321" rotation="0.000109211 -88.07 -0.000115695" static="true" nodeId="673">
+              <Shape shapeId="173" name="grainFloorMillSiloBase" translation="0.0026709 0 -1.15053e-07" clipDistance="100" nodeId="674" materialIds="33" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="grainFloorMillSiloLongLarge" translation="4.4099 -9.04825 -9.755" rotation="180 0 180" nodeId="675" lodDistance="0 100">
+              <Shape shapeId="133" name="LOD0" clipDistance="600" nodeId="676" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="134" name="LOD1" static="true" clipDistance="600" nodeId="677" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="135" name="occluderMesh" translation="9.09495e-15 0 0" clipDistance="250" nodeId="678" materialIds="" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true"/>
+            </TransformGroup>
+            <Shape shapeId="174" name="woodContainerCart01" lockedgroup="true" translation="-17.3099 -9.14424 -4.711" rotation="-2.05101e-06 31.764 -1.00741e-05" clipDistance="80" nodeId="679" materialIds="70" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="175" name="col" visibility="false" static="true" density="0.0001" nodeId="680" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </Shape>
+            <Shape shapeId="176" name="waterBarrel01" lockedgroup="true" translation="-17.0646 -9.16124 3.77478" rotation="7.52386e-06 -0 -1.16312e-05" dynamic="true" clipDistance="100" nodeId="681" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+              <Shape shapeId="177" name="tube_vis" clipDistance="30" nodeId="682" materialIds="65" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="178" name="waterBarrel_vis" clipDistance="60" nodeId="683" materialIds="65" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+            <TransformGroup name="transform" translation="5.8784 -16.3628 -24.2695" rotation="0 11.971 0" nodeId="684">
+              <Shape shapeId="179" name="LOD1" translation="-4.93326 -0.291247 6.55097" rotation="1.61332e-06 -0 -2.49405e-06" static="true" clipDistance="500" nodeId="685" materialIds="34" castsShadows="true" receiveShadows="true" weatherRequiredMask="64" renderInvisible="true"/>
+              <Shape shapeId="180" name="LOD0" translation="-4.93326 -0.291247 6.55097" rotation="1.61332e-06 -0 -2.49405e-06" clipDistance="700" nodeId="686" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="179" name="LOD1" translation="-4.93326 -0.291247 6.55097" rotation="1.61332e-06 -0 -2.49405e-06" static="true" clipDistance="500" nodeId="687" materialIds="34" castsShadows="true" receiveShadows="true" weatherRequiredMask="64" renderInvisible="true"/>
+              <Shape shapeId="180" name="LOD0" translation="-4.93326 -0.291247 6.55097" rotation="1.61332e-06 -0 -2.49405e-06" clipDistance="700" nodeId="688" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="180" name="LOD0" translation="-4.93326 -0.291247 6.55097" rotation="1.61332e-06 -0 -2.49405e-06" clipDistance="700" nodeId="689" materialIds="34" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="179" name="LOD1" translation="-4.93326 -0.291644 6.55097" rotation="1.61332e-06 -0 -2.49405e-06" static="true" clipDistance="500" nodeId="690" materialIds="34" castsShadows="true" receiveShadows="true" weatherRequiredMask="64" renderInvisible="true"/>
+            </TransformGroup>
+            <TransformGroup name="grainFloorMillShed" translation="4.17346 -9.04786 2.62413" rotation="1.61332e-06 270 -2.49405e-06" nodeId="691" lodDistance="0 100">
+              <TransformGroup name="LOD0" nodeId="692">
+                <Shape shapeId="136" name="grainFloorMillShed" clipDistance="400" nodeId="693" materialIds="33" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="137" name="windows" clipDistance="400" nodeId="694" materialIds="43" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="138" name="doors" clipDistance="400" nodeId="695" materialIds="23" castsShadows="true" receiveShadows="true"/>
+                <TransformGroup name="interior" nodeId="696">
+                  <TransformGroup name="llum" nodeId="697">
+                    <TransformGroup name="selfIllum" nodeId="698">
+                      <Shape shapeId="139" name="interiorDay" clipDistance="300" nodeId="699" materialIds="28" castsShadows="true" receiveShadows="true" weatherRequiredMask="64" renderInvisible="true"/>
+                    </TransformGroup>
+                    <TransformGroup name="realLights" nodeId="700" weatherRequiredMask="64">
+                      <Light name="pointLight2" translation="3.93018 1.78926 -2.7308" clipDistance="75" nodeId="701" type="point" color="0.03 0.03 0.02" emitDiffuse="true" emitSpecular="true" range="5"/>
+                      <Light name="pointLight3" translation="1.31689 1.83855 -4.90443" clipDistance="75" nodeId="702" type="point" color="0.03 0.03 0.02" emitDiffuse="true" emitSpecular="true" range="5"/>
+                    </TransformGroup>
+                  </TransformGroup>
+                  <Shape shapeId="140" name="curtains" clipDistance="80" nodeId="703" materialIds="68" castsShadows="true" receiveShadows="true"/>
+                  <Shape shapeId="141" name="decalsRust" clipDistance="90" nodeId="704" materialIds="13" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+                </TransformGroup>
+                <TransformGroup name="winter" nodeId="705">
+                  <Shape shapeId="142" name="snow" clipDistance="200" nodeId="706" materialIds="58" castsShadows="true" receiveShadows="true" weatherRequiredMask="1024"/>
+                  <Shape shapeId="143" name="icicles" rotation="0 -360 0" clipDistance="90" nodeId="707" materialIds="39" castsShadows="true" receiveShadows="true" weatherRequiredMask="1024"/>
+                </TransformGroup>
+              </TransformGroup>
+              <TransformGroup name="LOD1" translation="0 8.74228e-07 2.04636e-14" nodeId="708">
+                <Shape shapeId="144" name="grainFloorMillShed_LOD" translation="0 -8.74228e-07 -2.04281e-14" static="true" clipDistance="300" nodeId="709" materialIds="33" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="145" name="windows" static="true" clipDistance="250" nodeId="710" materialIds="69" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="146" name="doors_LOD" static="true" clipDistance="250" nodeId="711" materialIds="23" castsShadows="true" receiveShadows="true"/>
+                <TransformGroup name="interior" translation="0 -8.74228e-07 -2.04281e-14" nodeId="712">
+                  <TransformGroup name="llum" translation="0 2.71051e-22 -2.27374e-15" nodeId="713">
+                    <TransformGroup name="selfIllum" translation="0 2.84217e-16 0" nodeId="714">
+                      <Shape shapeId="147" name="interiorDay" clipDistance="300" nodeId="715" materialIds="28" castsShadows="true" receiveShadows="true" weatherRequiredMask="64" renderInvisible="true"/>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+              <Shape shapeId="148" name="occluderMesh" clipDistance="200" nodeId="716" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true" occluder="true"/>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="limeStation" translation="-8.24309 1.21566e-05 -18.1583" rotation="180 2.444 180" nodeId="717">
+            <TransformGroup name="clearAreas" nodeId="727">
+              <TransformGroup name="clearArea1Start" translation="-2 0 -1.5919" nodeId="728">
+                <TransformGroup name="clearArea1Width" translation="0 0 6.5919" nodeId="729"/>
+                <TransformGroup name="clearArea1Height" translation="4 0 -0" nodeId="730"/>
+              </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="levelAreas" nodeId="731">
+              <TransformGroup name="levelArea1Start" translation="-2 0 -1.5919" nodeId="732">
+                <TransformGroup name="levelArea1Width" translation="0 0 6.5919" nodeId="733"/>
+                <TransformGroup name="levelArea1Height" translation="4 0 -0" nodeId="734"/>
+              </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="testAreas" nodeId="735">
+              <TransformGroup name="testArea1Start" translation="-2 0 -1.55437" nodeId="736">
+                <TransformGroup name="testArea1End" translation="4 8.24985 6.55437" nodeId="737"/>
+              </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="tipOcclusionUpdateAreas" nodeId="738">
+              <TransformGroup name="tipOcclusionUpdateArea1Start" translation="-2.18243 0 -2.0616" nodeId="739">
+                <TransformGroup name="tipOcclusionUpdateArea1End" translation="4.31072 0 7.22553" nodeId="740"/>
+              </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="markerLoading" translation="0 0 3.60886" nodeId="741"/>
+            <TransformGroup name="tipCollision" nodeId="742">
+              <Shape shapeId="181" name="tipCollision" translation="0 0.5 0" visibility="false" static="true" collisionMask="524288" nodeId="743" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </TransformGroup>
+            <TransformGroup name="visuals" nodeId="744">
+              <TransformGroup name="winter" nodeId="745"/>
+              <Shape shapeId="182" name="foodSilo01_small" clipDistance="300" nodeId="746" materialIds="46" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+            <TransformGroup name="collisions" nodeId="747">
+              <Shape shapeId="183" name="collision" translation="0 0.5 0" visibility="false" static="true" nodeId="748" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            </TransformGroup>
+            <TransformGroup name="teleportNode" translation="2.75208 0 2.82693" rotation="0 -73.9381 0" nodeId="749"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="indoorAreaStart" translation="-17.214 -0.017 -29.111" nodeId="750">
+          <TransformGroup name="indoorAreaWidth" translation="32.278 0.00486755 -0.000141144" nodeId="751"/>
+          <TransformGroup name="indoorAreaHeight" translation="0.00625515 -0.000346422 45.329" nodeId="752"/>
+        </TransformGroup>
+        <TransformGroup name="levelAreas" nodeId="753">
+          <TransformGroup name="levelArea1Start" translation="-29.862 -0.0179639 -24.9926" nodeId="754">
+            <TransformGroup name="levelArea1Width" translation="64.189 0.00625086 -0.0187993" nodeId="755"/>
+            <TransformGroup name="levelArea1Height" translation="0 0.000434279 53.2722" nodeId="756"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="clearAreas" nodeId="757">
+          <TransformGroup name="clearArea1Start" translation="-29.862 -0.0179639 -24.9926" nodeId="758">
+            <TransformGroup name="clearArea1Width" translation="64.189 0.00625086 -0.0187993" nodeId="759"/>
+            <TransformGroup name="clearArea1Height" translation="0 0.00043428 53.2722" nodeId="760"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="indoorAreas" nodeId="761">
+          <TransformGroup name="indoorArea1Start" translation="-12 -0.0179639 -31.1763" nodeId="762">
+            <TransformGroup name="indoorArea1Width" translation="31.517 0.00625086 -1" nodeId="763"/>
+            <TransformGroup name="indoorArea1Height" translation="0 0.00043428 43.3153" nodeId="764"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="testAreas" nodeId="765">
+          <TransformGroup name="testArea1Start" translation="-12 -0.0179639 -31.1763" nodeId="766">
+            <TransformGroup name="testArea1End" translation="19.4115 13.8989 37.6987" nodeId="767"/>
+          </TransformGroup>
+          <TransformGroup name="testArea2Start" translation="-12 -0.0179639 -31.1763" nodeId="768">
+            <TransformGroup name="testArea2End" translation="16.6483 15.7992 36.6666" nodeId="769"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="tipOcclusionUpdateAreas" nodeId="770">
+          <TransformGroup name="tipOcclusionUpdateArea1Start" translation="-12 -0.0179639 -31.1763" nodeId="771">
+            <TransformGroup name="tipOcclusionUpdateArea1End" translation="30.7423 0 43.2058" nodeId="772"/>
+          </TransformGroup>
+        </TransformGroup>
+        <Shape shapeId="184" name="infoTrigger" translation="-0.0870906 0 1.55081" scale="1.97612 1 1.78911" static="true" trigger="true" collisionMask="1048576" nodeId="773" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <TransformGroup name="sellingStation" translation="16.3344 0.263383 -8.90207" rotation="2.82589e-12 -1.863 1.73029e-05" nodeId="774">
+          <TransformGroup name="grainGateLinkNode" translation="4.86983 0 13.3724" nodeId="775">
+            <Shape shapeId="185" name="unloadTrigger" static="true" trigger="true" collisionMask="1073741824" nodeId="776" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+              <TransformGroup name="unloadTriggerMarker" nodeId="777"/>
+            </Shape>
+          </TransformGroup>
+          <TransformGroup name="unloadTriggerAINode" translation="4.86983 0 13.7358" rotation="0 90 0" nodeId="778"/>
+          <Shape shapeId="186" name="aiSpline" translation="0.427359 0 12.1" nodeId="779"/>
+          <Shape shapeId="187" name="baleTrigger" translation="5.23396 -0.263369 13.3862" static="true" trigger="true" collisionMask="16777216" nodeId="781" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <TransformGroup name="warningStripes" translation="0.403028 -0.235367 26.8518" rotation="-180 -0 180" nodeId="782">
+            <Shape shapeId="188" name="warningStripes_loadUnloadArea" translation="5.39068 0.01 13.4746" visibility="false" clipDistance="300" nodeId="783" materialIds="64" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="189" name="warningStripes_palletSpawnArea" translation="-3.72165 0.01 13.5647" clipDistance="300" nodeId="784" materialIds="64" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="productionPoint" translation="-25.3711 0 -14.7594" nodeId="785">
+          <Shape shapeId="190" name="playerTrigger" translation="1.55467 1.22 0.232575" static="true" trigger="true" collisionMask="1048576" nodeId="786" materialIds="45" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <TransformGroup name="playerTriggerMarker" translation="0 0 0.312664" nodeId="787"/>
+          </Shape>
+          <TransformGroup name="teleportNode" translation="1.57614 0 -0.187218" nodeId="788"/>
+        </TransformGroup>
+        <TransformGroup name="palletSpawner" translation="-22.5426 5.90301e-06 4.63044" rotation="3.18539e-07 -0.973 -1.36653e-05" nodeId="789">
+          <TransformGroup name="spawnSpace1start" translation="0.11628 0 -2.77165" rotation="0 -90 0" nodeId="790">
+            <TransformGroup name="spawnSpace1end" translation="8.03945 -8.52651e-16 0" nodeId="791"/>
+          </TransformGroup>
+          <TransformGroup name="spawnSpace2start" translation="2.22348 0 -3.05811" rotation="0 -90 0" nodeId="792">
+            <TransformGroup name="spawnSpace2end" translation="8.03945 -8.52651e-16 -6.82121e-15" nodeId="793"/>
+          </TransformGroup>
+          <TransformGroup name="warningStripes" translation="14.8176 0.02 5.91515" rotation="180 -88.9461 -180" nodeId="794">
+            <Shape shapeId="188" name="warningStripes_loadUnloadArea" translation="5.39068 0.01 13.4746" visibility="false" clipDistance="300" nodeId="795" materialIds="64" castsShadows="true" receiveShadows="true"/>
+            <Shape shapeId="189" name="warningStripes_palletSpawnArea" translation="-3.72165 0.01 13.5647" clipDistance="300" nodeId="796" materialIds="64" castsShadows="true" receiveShadows="true"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="honeyFactory" translation="9.97124 0 0" clipDistance="350" nodeId="797">
+          <TransformGroup name="IN" translation="-2.32018 0.325 -28.17" nodeId="798">
+            <TransformGroup name="unloadingStation" translation="12.8674 0.33759 -6.49596" rotation="0 90 0" nodeId="799"/>
+          </TransformGroup>
+          <Camera name="gui_camera" translation="2.94999 13.2689 15.747" rotation="-51.9199 24.8216 -4.8724e-06" nodeId="800" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+        </TransformGroup>
+      </TransformGroup>
+  </Scene>
+
+</i3D>
